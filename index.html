@@ -16,7 +16,7 @@
                 <a href="list.html" style="color: var(--primary); text-decoration: none;">View All Questions</a>
                 <button id="openAdminBtn" style="background: none; border: none; color: var(--primary); font-weight: 600; cursor: pointer; font-size: inherit; font-family: inherit;">+ Add Question</button>
             </nav>
-            <div style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 1.5rem;">
+            <div class="dashboard-controls">
                 <button id="openFlashcardBtn" class="btn secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">View Flashcards</button>
                 <button id="startQuizBtn" class="btn primary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Start Quiz Session</button>
             </div>
@@ -51,7 +51,7 @@
             <div class="modal-footer" style="flex-direction: column; align-items: stretch; gap: 0.75rem;">
                 <div class="navigation-controls" style="width: 100%; justify-content: space-between; align-items: center; margin-bottom: 0;">
                     <span id="counter" class="status-info">Loading cards...</span>
-                    <div style="display: flex; gap: 0.5rem; width: 100%;">
+                    <div class="button-group">
                         <button id="prevBtn" class="btn secondary">Previous</button>
                         <button id="flipBtn" class="btn secondary">Flip Card</button>
                         <button id="nextBtn" class="btn primary">Next</button>
@@ -123,16 +123,16 @@
         <div id="quizModal" class="modal-container" style="display: none; max-width: 850px;">
             <div class="modal-header">
                 <h2>Practice Test</h2>
-                <button id="endSessionBtn" class="btn secondary" style="font-size: 0.8rem;">End Session</button>
+                <button id="endSessionBtn" class="btn secondary" style="font-size: 0.85rem; padding: 0.5rem">&times;</button>
             </div>
             <div class="modal-body" id="quizModalBody">
                 <!-- Question area or Results will be injected here -->
                 <div id="quizActiveArea"></div>
             </div>
             <div class="modal-footer">
-                <div class="navigation-controls" style="width: 100%; margin-bottom: 0; justify-content: space-between; align-items: center;">
+                <div class="navigation-controls" style="width: 100%; justify-content: space-between; align-items: center;">
                     <span id="modalCounter" class="status-info">Loading...</span>
-                    <div style="display: flex; gap: 0.5rem; width: 100%;">
+                    <div class="button-group">
                         <button id="modalFlipBtn" class="btn secondary hidden">View Explanation</button>
                         <button id="submitBtn" class="btn primary hidden" disabled>Submit Answer</button>
                     </div>

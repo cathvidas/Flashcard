@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Modal Elements - Generic
     const modalOverlay = document.getElementById('modalOverlay');
     const adminModal = document.getElementById('adminModal');
-    const shuffleModal = document.getElementById('shuffleModal');
     const quizModal = document.getElementById('quizModal');
     const flashcardModal = document.getElementById('flashcardModal');
     
