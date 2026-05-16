@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Questions - ISTQB Prep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-container">
+        <header>
+            <h1>Question Generator</h1>
+            <nav style="display: flex; gap: 1.5rem; justify-content: center; font-weight: 600; margin-bottom: 2rem;">
+                <a href="index.html" style="color: var(--secondary); text-decoration: none;">&larr; Flashcards</a>
+                <a href="list.html" style="color: var(--secondary); text-decoration: none;">View All Questions</a>
+            </nav>
+        </header>
+
+        <section class="form-section">
+            <div class="form-group">
+                <label>Question Text</label>
+                <textarea id="qInput" rows="3" placeholder="Enter the question..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Options</label>
+                <div id="optionsContainer">
+                    <input type="text" class="opt-input" placeholder="Option A">
+                    <input type="text" class="opt-input" placeholder="Option B">
+                </div>
+                <button type="button" id="addOptBtn" class="btn secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem;">+ Add Option</button>
+            </div>
+
+            <div class="form-group">
+                <label>Correct Answer</label>
+                <input type="text" id="aInput" placeholder="e.g. B (Test Implementation)">
+            </div>
+
+            <div class="form-group">
+                <label>Explanation</label>
+                <textarea id="eInput" rows="4" placeholder="Enter the explanation..."></textarea>
+            </div>
+
+            <button id="generateBtn" class="btn primary" style="width: 100%;">Generate JSON Code</button>
+
+            <div id="outputArea" style="display:none; margin-top: 2rem;">
+                <label style="font-weight: 600;">Copy this into your questions.json:</label>
+                <div class="json-output" id="jsonResult"></div>
+            </div>
+        </section>
+    </main>
+    <script src="admin.js"></script>
+</body>
+</html>

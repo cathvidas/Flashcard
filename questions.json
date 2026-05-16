@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Which of the following statements about testware are correct?",
+        "options": [
+            "I When closing the test activities, all the testware resources can be uninstalled and released",
+            "II All the testware should be subject to Configuration Management",
+            "III The testware, at the end of the project, should be transferred to the organization responsible for maintenance",
+            "IV The developers are responsible for the correct installation of the testware"
+        ],
+        "answer": "A (II, III)",
+        "explanation": "Testware is a term that refers to all artifacts produced during the testing process, such as test plans, test cases, test scripts, test data, test results, defect reports, etc. The following statements about testware are correct:<br><br>Explore ISTQB Certified Tester Foundation Level v4.0 Questions By Clayton - Page 4<br><br>II) All the testware should be subject to Configuration Management. Configuration management is a process that establishes and maintains consistency among work products throughout their life cycle. Configuration management applies to all testware, as it helps ensure their quality and consistency, track their changes and defects, control their versions and access rights, and link them to other artifacts.<br><br>III) The testware at the end of the project should be transferred to the organization responsible for maintenance. Maintenance testing is testing performed on a software product after delivery to correct defects or improve performance or other attributes. Maintenance testing requires testware from previous testing activities or phases, such as test cases, test data, test results, etc. Therefore, the testware at the end of the project should be transferred to the organization responsible for maintenance testing, such as support team or maintenance team.<br><br>The following statements about testware are incorrect:<br><br>I) When closing the test activities, all the testware resources can be uninstalled and released. This statement is incorrect, as some testware resources may still be needed for future testing activities or phases, such as maintenance testing or regression testing. Therefore, when closing the test activities, some testware resources should be archived and stored for future use, while others can be uninstalled and released.<br><br>IV) The developers are responsible for the correct installation of the testware. This statement is incorrect, as the testers are responsible for the correct installation of the testware. The testers should ensure that they have access to all necessary testware resources and that they are installed and configured properly before starting the test execution.<br><br>Verified Reference: A Study Guide to the ISTQB Foundation Level 2018 Syllabus - Springer, Chapter 6, page 58-61."
+    },
+    {
+        "question": "Regarding Testware, which of the following statements are correct?<br>I. When closing test activities, all testware can be uninstalled and released<br>II. All testware should be subject to Configuration Management<br>III. Testware at end of project should be transferred to maintenance organization<br>IV. Developers are responsible for correct installation of testware",
+        "options": [
+            "A. I",
+            "B. I, II, and IV",
+            "C. II and III",
+            "D. I, II, III, and IV"
+        ],
+        "answer": "II and III",
+        "explanation": "Testware must be subject to Configuration Management and handed over to maintenance for long-term support."
+    },
+    {
+        "question": "Which role is specifically responsible for documenting findings during a formal review?",
+        "options": [
+            "A. Review leader",
+            "B. Facilitator",
+            "C. Recorder",
+            "D. Moderator"
+        ],
+        "answer": "C (Recorder)",
+        "explanation": "The Recorder (or Scribe) is responsible for logging all defects, discussion points, and decisions made during the review meeting."
+    },
+    {
+        "question": "Which of the following items in a defect report are most useful for developers to identify and resolve an issue?",
+        "options": [
+            "1. Expected results",
+            "2. Actual results",
+            "3. Urgency/priority",
+            "4. Date/author",
+            "5. Reproduction description"
+        ],
+        "answer": "1, 2, and 5",
+        "explanation": "Developers primarily require the expected versus actual outcomes and clear steps to reproduce the issue to debug efficiently."
+    },
+    {
+        "question": "An incident report is missing the Application ID and the specific actions taken before the incident occurred. Which information categories are lacking?",
+        "options": [
+            "A. Status and Severity",
+            "B. Identification and Reproduction Steps",
+            "C. Priority and Urgency",
+            "D. Scope and Objectives"
+        ],
+        "answer": "B (Identification and Reproduction Steps)",
+        "explanation": "The Application ID serves as the Identification of the system/environment, while the actions taken before the incident provide the Reproduction Steps."
+    },
+    {
+        "question": "A virtual service emulating a real third-party service and the automated test scripts that interact with that service are test work products typically created during:",
+        "options": [
+            "A. Test monitoring and control",
+            "B. Test implementation",
+            "C. Test design",
+            "D. Test analysis"
+        ],
+        "answer": "B",
+        "explanation": "This answer is correct because test implementation is the activity where test work products, such as test cases, test data, test scripts, test harnesses, test stubs, or virtual services, are created and verified. Test implementation also involves setting up the test environment and preparing the test execution schedule."
+    },
+    {
+        "question": "Which of the following statements describes regression testing?",
+        "options": [
+            "I Retesting of a fixed defect",
+            " II Testing of an already tested program",
+            " III Testing of new functionality in a program",
+            " IV Regression testing applies only to functional testing",
+            " V Tests that do not nave to be repeatable, because They are only used once"
+        ],
+        "answer": "II",
+        "explanation": "<br>Regression testing is the re-running of functional and non-functional tests to ensure that<br>previously developed and tested software still performs as expected after a change1It does not<br>involve retesting of a fixed defect, testing of new functionality, or applying only to functional<br>testing.Tests that are used for regression testing should be repeatable, because they are used to<br>verify the stability of the software after each change2Reference= ISTQB Certified Tester<br>Foundation Level (CTFL) v4.0 Syllabus, Chapter 4, Section 4.2.2, Page 291; ISTQB Glossary of<br>Testing Terms v4.0, Page 292"
+    },
+    {
+        "question": "You are performing the role of tester on an Agile project. Which of the following tasks would be\nyour responsibility?\ni. Understanding, implementing, and updating the test strategy.\nII . Ensuring the proper use of testing tools.\nHi. Coaching other team members in the relevant aspects of testing.\niv . Actively collaborating with developers and business stakeholders to clarify requirements,\nespecially in terms of testability, consistency, and completeness.\nv. Participating proactively in team retrospective meeting, suggesting and implementing\nimprovements.\nSelect the correct answer:",
+        "options": [
+            "A- i, iv and v",
+            "B- i, ii and iii",
+            "C- i, iii and v",
+            "D- iii . iv and v"
+        ],
+        "answer": "A",
+        "explanation": "In an Agile project, a tester's responsibilities include understanding, implementing, and updating<br>the test strategy (i), actively collaborating with developers and business stakeholders to clarify<br>requirements, especially in terms of testability, consistency, and completeness (iv), and<br>participating proactively in team retrospective meetings, suggesting and implementing<br>improvements (v). These activities ensure that testing is integrated into the development<br>process, promoting continuous feedback and improvement. The ISTQB CTFL syllabus underlines<br>the collaborative nature of Agile testing and the tester's role in contributing to the team's overall<br>quality goals.<br>"
+    }
+]

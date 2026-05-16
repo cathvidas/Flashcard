@@ -1,0 +1,343 @@
+:root {
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --primary: #2563eb;
+    --secondary: #64748b;
+    --text-main: #1e293b;
+    --text-light: #f8fafc;
+    --transition-speed: 0.6s;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-container {
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+header p {
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+/* 3D Card Setup */
+.card-viewport {
+    perspective: 1200px;
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Changed from center to allow proper scrolling */
+    align-items: center;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) transparent;
+}
+
+/* Custom scrollbar for Webkit browsers */
+.card-face::-webkit-scrollbar {
+    width: 6px;
+}
+
+.card-face::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+
+.q-text {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.options-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.options-list li {
+    background: #f1f5f9;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+/* Interactive Quiz States */
+.options-list li.selected {
+    background: #dbeafe;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.options-list li.correct {
+    background: #dcfce7 !important;
+    border: 2px solid #16a34a !important;
+    color: #166534 !important;
+}
+
+.options-list li.incorrect {
+    background: #fee2e2 !important;
+    border: 2px solid #dc2626 !important;
+    color: #991b1b !important;
+}
+
+.options-list li.disabled {
+    pointer-events: none;
+}
+
+.card-front {
+    background: var(--card-bg);
+    border: 1px solid #e2e8f0;
+    z-index: 2;
+}
+
+.card-back {
+    background: var(--primary);
+    color: var(--text-light);
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+.q-container {
+    width: 100%;
+    margin: auto 0;
+}
+
+.a-container {
+    text-align: center;
+    width: 100%;
+    margin: auto 0; /* This centers content vertically IF it's shorter than the card */
+}
+
+.a-explanation { font-size: 1.1rem; margin-top: 1rem; text-align: left; }
+hr { border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 1.5rem 0; }
+
+/* Controls */
+.navigation-controls {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.btn.primary { background: var(--primary); color: white; }
+.btn.secondary { background: var(--secondary); color: white; }
+.btn:hover { filter: brightness(1.1); }
+
+.status-info {
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+footer {
+    margin-top: 2rem;
+    color: #94a3b8;
+}
+
+/* Admin Page Styles */
+.form-section {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: left;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-main);
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+#optionsContainer input {
+    margin-bottom: 0.5rem;
+}
+
+.json-output {
+    background: #1e293b;
+    color: #38bdf8;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1rem;
+}
+
+/* Modal System */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-container {
+    background: var(--card-bg);
+    width: 100%;
+    max-width: 650px;
+    max-height: 90vh;
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    animation: modalSlideUp 0.3s ease-out;
+}
+
+@keyframes modalSlideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+.modal-body {
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    padding: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.list-view {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem 0 4rem 0;
+}
+
+.list-card {
+    background: var(--card-bg);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    text-align: left;
+    transition: border-color 0.2s ease;
+}
+
+.list-card:hover {
+    border-color: var(--primary);
+}
+
+.list-card-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.toggle-icon {
+    transition: transform 0.3s ease;
+    color: var(--secondary);
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+}
+
+/* Quiz Modal specific adjustments */
+#quizModal .card-viewport {
+    height: 500px;
+}
+
+.hidden {
+    display: none !important;
+}

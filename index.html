@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTQB CTFL Exam Prep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app-container">
+        <header>
+            <h1>ISTQB CTFL Flashcards</h1>
+            <p>Master the Foundation Level Concepts</p>
+            <nav id="mainNav" style="display: flex; gap: 1.5rem; justify-content: center; font-weight: 600; margin-bottom: 1rem;">
+                <a href="list.html" style="color: var(--primary); text-decoration: none;">View All Questions</a>
+                <button id="openAdminBtn" style="background: none; border: none; color: var(--primary); font-weight: 600; cursor: pointer; font-size: inherit; font-family: inherit;">+ Add Question</button>
+            </nav>
+            <div style="margin-bottom: 1.5rem;">
+                <button id="startQuizBtn" class="btn primary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Start Quiz Session</button>
+            </div>
+        </header>
+        
+        <section class="flashcard-section">
+            <div class="card-viewport" id="cardContainer">
+                <div class="card" id="flashcard">
+                    <!-- Front Side -->
+                    <div class="card-face card-front" id="cardFront"></div>
+                    <!-- Back Side -->
+                    <div class="card-face card-back" id="cardBack"></div>
+                </div>
+            </div>
+
+            <div class="navigation-controls">
+                <button id="prevBtn" class="btn secondary">Previous</button>
+                <button id="flipBtn" class="btn secondary">Flip Card</button>
+                <button id="nextBtn" class="btn primary">Next</button>
+            </div>
+
+            <div class="status-info">
+                <span id="counter">Loading cards...</span>
+            </div>
+        </section>
+
+        <footer>
+            <small>Tip: Use <b>Space</b> to flip and <b>Arrow Keys</b> to navigate.</small>
+        </footer>
+    </main>
+
+    <!-- Modal for Admin Form -->
+    <div id="modalOverlay" class="modal-overlay">
+        <!-- Add Question Form Content -->
+        <div id="adminModal" class="modal-container" style="display: none;">
+            <div class="modal-header">
+                <h2>Add New Question</h2>
+                <button class="close-modal btn secondary" style="padding: 0.5rem;">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Question Text</label>
+                    <textarea id="qInput" rows="3" placeholder="Enter the question..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Options</label>
+                    <div id="optionsContainer">
+                        <input type="text" class="opt-input" placeholder="Option A">
+                        <input type="text" class="opt-input" placeholder="Option B">
+                    </div>
+                    <button type="button" id="addOptBtn" class="btn secondary" style="padding: 0.4rem 1rem; font-size: 0.8rem;">+ Add Option</button>
+                </div>
+                <div class="form-group">
+                    <label>Correct Answer</label>
+                    <input type="text" id="aInput" placeholder="e.g. B (Test Implementation)">
+                </div>
+                <div class="form-group">
+                    <label>Explanation</label>
+                    <textarea id="eInput" rows="4" placeholder="Enter the explanation..."></textarea>
+                </div>
+                <div id="outputArea" style="display:none; margin-top: 1rem;">
+                    <label style="font-weight: 600;">Copy this into your questions.json:</label>
+                    <div class="json-output" id="jsonResult"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="close-modal btn secondary">Cancel</button>
+                <button id="generateBtn" class="btn primary">Generate JSON</button>
+                <button id="downloadFullBtn" class="btn secondary" style="display: none;">Download questions.json</button>
+            </div>
+        </div>
+
+        <!-- Shuffle Confirmation Content -->
+        <div id="shuffleModal" class="modal-container" style="display: none; max-width: 450px;">
+            <div class="modal-header">
+                <h2>Start Quiz Session?</h2>
+            </div>
+            <div class="modal-body">
+                <p>This will shuffle the questions and enter <strong>Focus Mode</strong>. Navigation links will be hidden until you end the session.</p>
+                <div class="form-group" style="margin-top: 1rem;">
+                    <label for="quizItemCount">Number of items to take:</label>
+                    <input type="number" id="quizItemCount" min="1" placeholder="Enter number of items">
+                    <small id="itemCountError" style="color: #dc2626; display: none; margin-top: 0.25rem; font-weight: 500;"></small>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="cancelShuffle" class="btn secondary">Cancel</button>
+                <button id="confirmShuffle" class="btn primary">Start Quiz</button>
+            </div>
+        </div>
+
+        <!-- Quiz/Shuffle Mode Modal -->
+        <div id="quizModal" class="modal-container" style="display: none; max-width: 850px;">
+            <div class="modal-header">
+                <h2>Focus Mode: Shuffled Session</h2>
+                <button id="endSessionBtn" class="btn secondary" style="font-size: 0.8rem;">End Session</button>
+            </div>
+            <div class="modal-body" id="quizModalBody">
+                <!-- Question area or Results will be injected here -->
+                <div id="quizActiveArea"></div>
+            </div>
+            <div class="modal-footer">
+                <div class="navigation-controls" style="width: 100%; margin-bottom: 0.5rem; justify-content: space-between;">
+                    <span id="modalCounter" class="status-info">Loading...</span>
+                    <div style="display: flex; gap: 0.5rem;">
+                        <button id="modalFlipBtn" class="btn secondary hidden">View Explanation</button>
+                        <button id="submitBtn" class="btn primary hidden" disabled>Submit Answer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
