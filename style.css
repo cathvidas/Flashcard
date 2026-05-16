@@ -89,6 +89,7 @@ header p {
     font-weight: 600;
     margin-bottom: 1.5rem;
     width: 100%;
+    white-space: pre-wrap;
 }
 
 .options-list {
@@ -107,6 +108,7 @@ header p {
     font-size: 1.1rem;
     transition: all 0.2s ease;
     cursor: pointer;
+    white-space: pre-wrap;
 }
 
 /* Interactive Quiz States */
@@ -156,7 +158,12 @@ header p {
     margin: auto 0; /* This centers content vertically IF it's shorter than the card */
 }
 
-.a-explanation { font-size: 1.1rem; margin-top: 1rem; text-align: left; }
+.a-explanation { 
+    font-size: 1.1rem; 
+    margin-top: 1rem; 
+    text-align: left; 
+    white-space: pre-wrap;
+}
 hr { border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 1.5rem 0; }
 
 /* Controls */
