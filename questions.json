@@ -69,7 +69,7 @@
       "D. 3, 4"
     ],
     "answer": "A",
-    "explanation": "When developers are trying to identify and remove a defect, they need clear information on what went wrong and what was expected. The items that will be most useful to developers in this context are the expected results (item 1), the actual results (item 2), and a description of the defect including steps to reproduce, screenshots, and database dumps (item 5). This information helps developers understand the nature of the defect and provides the necessary details to reproduce and diagnose the issue effectively. \n\nReferences: ISTQB Certified Tester Foundation Level Syllabus v4.0, Section 5.5.1."
+    "explanation": "When developers are trying to identify and remove a defect, they need clear information on what went wrong and what was expected. The items that will be most useful to developers in this context are the expected results (item 1), the actual results (item 2), and a description of the defect including steps to reproduce, screenshots, and database dumps (item 5). This information helps developers understand the nature of the defect and provides the necessary details to reproduce and diagnose the issue effectively. \nReferences: ISTQB Certified Tester Foundation Level Syllabus v4.0, Section 5.5.1."
   },
   {
     "question_number": 7,

@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const adminModal = document.getElementById('adminModal');
     const shuffleModal = document.getElementById('shuffleModal');
     const quizModal = document.getElementById('quizModal');
+    const flashcardModal = document.getElementById('flashcardModal');
     
     // Modal Elements - Quiz Specific
     const quizActiveArea = document.getElementById('quizActiveArea');
@@ -35,6 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const flipBtn = document.getElementById('flipBtn');
 
     const openAdminBtn = document.getElementById('openAdminBtn');
+    const openFlashcardBtn = document.getElementById('openFlashcardBtn');
     const closeButtons = document.querySelectorAll('.close-modal');
 
     // 2. Modal Logic
@@ -91,10 +93,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             // Build Answer content for Quiz Modal (hidden initially)
             let quizAnswerContent = `
-                <div id="quizExplanation" class="hidden" style="margin-top: 2rem; border-top: 2px solid #e2e8f0; padding-top: 1.5rem;">
-                    <p style="color: var(--primary); font-weight: 700; font-size: 1.2rem; margin-bottom: 1rem; text-align: center;">
-                        Answer: ${currentCard.answer || "N/A"}
-                    </p>
+                <div id="quizExplanation" class="hidden quiz-explanation-container">
+                    <p class="quiz-answer-header">Answer: ${currentCard.answer || "N/A"}</p>
                     <div class="a-explanation" style="color: var(--text-main);">${currentCard.explanation || ""}</div>
                 </div>
             `;
@@ -190,10 +190,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         quizActiveArea.innerHTML = `
             <div style="text-align: center; padding: 1rem;">
-                <h2 style="color: var(--primary); margin-bottom: 1.5rem; font-size: 2rem;">Quiz Completed!</h2>
-                <p style="font-size: 1.5rem; margin-bottom: 0.5rem;">Your Final Score:</p>
-                <div style="font-size: 3rem; font-weight: 800; color: ${scoreColor}; margin-bottom: 0.5rem;">${score} / ${quizData.length}</div>
-                <p style="font-size: 1.5rem; color: ${scoreColor}; margin-bottom: 2.5rem;">${percentage}% Correct</p>
+                <h2 class="quiz-result-title">Quiz Completed!</h2>
+                <p class="quiz-result-label">Your Final Score:</p>
+                <div class="quiz-result-score" style="color: ${scoreColor}">${score} / ${quizData.length}</div>
+                <p class="quiz-result-percentage" style="color: ${scoreColor}">${percentage}% Correct</p>
                 <div style="display: flex; gap: 1rem; justify-content: center;">
                     <button id="restartQuizBtn" class="btn primary">Restart Quiz</button>
                     <button id="exitQuizBtn" class="btn secondary">Exit Focus Mode</button>
@@ -304,25 +304,27 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const toggleShuffle = (active, count) => {
         isShuffleActive = active;
-        const mainFlashcardSection = document.querySelector('main .flashcard-section');
         
         if (active) {
             score = 0;
             mainNav.style.display = 'none';
-            mainFlashcardSection.classList.add('hidden');
             let tempArray = [...originalData];
             shuffleArray(tempArray);
             quizData = tempArray.slice(0, count);
             openModal('quizModal');
         } else {
             mainNav.style.display = 'flex';
-            mainFlashcardSection.classList.remove('hidden');
             quizData = [...originalData];
             closeModal();
         }
         currentIndex = 0;
         updateDisplay();
     };
+
+    // Flashcard Modal Logic
+    openFlashcardBtn.addEventListener('click', () => {
+        openModal('flashcardModal');
+    });
 
     // Admin Modal Logic
     openAdminBtn.addEventListener('click', () => openModal('adminModal'));

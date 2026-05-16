@@ -10,45 +10,57 @@
 
     <main class="app-container">
         <header>
-            <h1>ISTQB CTFL Flashcards</h1>
+            <h1>ISTQB CTFL Reviewer</h1>
             <p>Master the Foundation Level Concepts</p>
-            <nav id="mainNav" style="display: flex; gap: 1.5rem; justify-content: center; font-weight: 600; margin-bottom: 1rem;">
+            <nav id="mainNav" style="display: none; gap: 1.5rem; justify-content: center; font-weight: 600; margin-bottom: 1rem;">
                 <a href="list.html" style="color: var(--primary); text-decoration: none;">View All Questions</a>
                 <button id="openAdminBtn" style="background: none; border: none; color: var(--primary); font-weight: 600; cursor: pointer; font-size: inherit; font-family: inherit;">+ Add Question</button>
             </nav>
-            <div style="margin-bottom: 1.5rem;">
+            <div style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 1.5rem;">
+                <button id="openFlashcardBtn" class="btn secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">View Flashcards</button>
                 <button id="startQuizBtn" class="btn primary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Start Quiz Session</button>
             </div>
         </header>
         
-        <section class="flashcard-section">
-            <div class="card-viewport" id="cardContainer">
-                <div class="card" id="flashcard">
-                    <!-- Front Side -->
-                    <div class="card-face card-front" id="cardFront"></div>
-                    <!-- Back Side -->
-                    <div class="card-face card-back" id="cardBack"></div>
-                </div>
-            </div>
-
-            <div class="navigation-controls">
-                <button id="prevBtn" class="btn secondary">Previous</button>
-                <button id="flipBtn" class="btn secondary">Flip Card</button>
-                <button id="nextBtn" class="btn primary">Next</button>
-            </div>
-
-            <div class="status-info">
-                <span id="counter">Loading cards...</span>
-            </div>
-        </section>
-
         <footer>
-            <small>Tip: Use <b>Space</b> to flip and <b>Arrow Keys</b> to navigate.</small>
+            <small>
+                ISTQB CTFL Preparation Tool<br>
+                Reference: <a href="https://www.marks4sure.com/ISTQB-CTFL-exam.html" target="_blank" style="color: var(--secondary);">Marks4Sure ISTQB CTFL Exam</a>
+            </small>
         </footer>
     </main>
 
     <!-- Modal for Admin Form -->
     <div id="modalOverlay" class="modal-overlay">
+        <!-- Flashcard Review Modal -->
+        <div id="flashcardModal" class="modal-container" style="display: none; max-width: 850px;">
+            <div class="modal-header">
+                <h2>ISTQB CTFL Questions</h2>
+                <button class="close-modal btn secondary" style="padding: 0.5rem;">&times;</button>
+            </div>
+            <div class="modal-body">
+                <section class="flashcard-section">
+                    <div class="card-viewport" id="cardContainer">
+                        <div class="card" id="flashcard">
+                            <div class="card-face card-front" id="cardFront"></div>
+                            <div class="card-face card-back" id="cardBack"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="modal-footer" style="flex-direction: column; align-items: stretch; gap: 0.75rem;">
+                <div class="navigation-controls" style="width: 100%; justify-content: space-between; align-items: center; margin-bottom: 0;">
+                    <span id="counter" class="status-info">Loading cards...</span>
+                    <div style="display: flex; gap: 0.5rem; width: 100%;">
+                        <button id="prevBtn" class="btn secondary">Previous</button>
+                        <button id="flipBtn" class="btn secondary">Flip Card</button>
+                        <button id="nextBtn" class="btn primary">Next</button>
+                    </div>
+                </div>
+                <small class="desktop-tip" style="text-align: center; color: var(--secondary);">Tip: Use <b>Space</b> to flip and <b>Arrow Keys</b> to navigate.</small>
+            </div>
+        </div>
+
         <!-- Add Question Form Content -->
         <div id="adminModal" class="modal-container" style="display: none;">
             <div class="modal-header">
@@ -91,7 +103,7 @@
         <!-- Shuffle Confirmation Content -->
         <div id="shuffleModal" class="modal-container" style="display: none; max-width: 450px;">
             <div class="modal-header">
-                <h2>Start Quiz Session?</h2>
+                <h2>Start Practice Test?</h2>
             </div>
             <div class="modal-body">
                 <p>This will shuffle the questions and enter <strong>Focus Mode</strong>. Navigation links will be hidden until you end the session.</p>
@@ -110,7 +122,7 @@
         <!-- Quiz/Shuffle Mode Modal -->
         <div id="quizModal" class="modal-container" style="display: none; max-width: 850px;">
             <div class="modal-header">
-                <h2>Focus Mode: Shuffled Session</h2>
+                <h2>Practice Test</h2>
                 <button id="endSessionBtn" class="btn secondary" style="font-size: 0.8rem;">End Session</button>
             </div>
             <div class="modal-body" id="quizModalBody">
@@ -118,9 +130,9 @@
                 <div id="quizActiveArea"></div>
             </div>
             <div class="modal-footer">
-                <div class="navigation-controls" style="width: 100%; margin-bottom: 0.5rem; justify-content: space-between;">
+                <div class="navigation-controls" style="width: 100%; margin-bottom: 0; justify-content: space-between; align-items: center;">
                     <span id="modalCounter" class="status-info">Loading...</span>
-                    <div style="display: flex; gap: 0.5rem;">
+                    <div style="display: flex; gap: 0.5rem; width: 100%;">
                         <button id="modalFlipBtn" class="btn secondary hidden">View Explanation</button>
                         <button id="submitBtn" class="btn primary hidden" disabled>Submit Answer</button>
                     </div>
