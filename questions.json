@@ -905,7 +905,7 @@
   },
   {
     "question_number": 76,
-    "question": "Which ONE of the following options identifies the perspectives through which a collective authorship generates a shared vision of user stories?process",
+    "question": "Which ONE of the following options identifies the perspectives through which a collective authorship process generates a shared vision of user stories?",
     "options": [
       "A. Product owner, development, and testing",
       "B. Business, architecture, and testing",
@@ -913,15 +913,15 @@
       "D. Business, development, and acceptance testing"
     ],
     "answer": "C",
-    "explanation": "B. D. Comprehensive and Detailed In-Depth Explanation: Business, development, and testing (C) are the three key perspectives in :agile user story refinement Business (Product Owner, Stakeholders) – Ensures the story aligns with user needs and business goals. Development (Developers) – Provides insights on feasibility and technical constraints. Testing (Testers, QA) – Ensures testability, acceptance criteria, and risk identification. (A) is incorrect because the product owner is part of business stakeholders. (B) is incorrect because architecture is part of development, but not the primary driver of user stories. (D) is incorrect because .acceptance testing is a process, not a stakeholder group A ensures user stories.cross-functional team collaboration well-defined, testable, and feasible Reference: ISTQB CTFL v4.0 Syllabus, Section 2.1.1 – Agile Team Collaboration in Testing"
+    "explanation": "Comprehensive and Detailed In-Depth Explanation: \nBusiness, development, and testing (C) are the three key perspectives in agile user story refinement\n* Business (Product Owner, Stakeholders) – Ensures the story aligns with user needs and business goals. \n* Development (Developers) – Provides insights on feasibility and technical constraints. \n* Testing (Testers, QA) – Ensures testability, acceptance criteria, and risk identification. \n* (A) is incorrect because the product owner is part of business stakeholders. \n* (B) is incorrect because architecture is part of development, but not the primary driver of user stories. \n* (D) is incorrect because acceptance testing is a process, not a stakeholder group A cross-functional team collaboration ensures user stories. well-defined, testable, and feasible \n\nReference: ISTQB CTFL v4.0 Syllabus, Section 2.1.1 – Agile Team Collaboration in Testing"
   },
   {
     "question_number": 77,
-    "question": "Which of the following sentences describe a product risk? The application might not be able to provide the expected responsiveness under a load of up-lo 300 concurrent users",
+    "question": "Which of the following sentences describe a product risk?",
     "options": [
-      "A. Failure in acquiring an adequate and test automation tool",
-      "B. A wrong configuration of the test environment that causes incidents related to the environment and not",
-      "C. to the software under test",
+      "A. The application might not be able to provide the expected responsiveness under a load of up-lo 300 concurrent users",
+      "B. Failure in acquiring an adequate and test automation tool",
+      "C. A wrong configuration of the test environment that causes incidents related to the environment and not to the software under test",
       "D. The development team lacks knowledge of the technology on which the product is based"
     ],
     "answer": "A",
@@ -937,25 +937,25 @@
       "D. To coordinate the test strategy with project managers."
     ],
     "answer": "D",
-    "explanation": "The most important task of a typical test leader is to coordinate the test strategy with project managers. The test strategy is a high-level document that defines the general approach and objectives of testing for a project or an organization. The test leader is responsible for defining, documenting, communicating, and implementing the test strategy in alignment with the project goals and constraints. The test leader also needs to coordinate with project managers and other stakeholders to ensure that the test strategy is feasible, effective, and efficient. The other options are not the most important tasks of a typical test leader. To automate tests is a task of a test automation engineer or a test automation specialist. To prepare and acquire test data is a task of a test analyst or a test engineer. To set up the test environment is a task of a test environment manager or a test environment specialist. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 13."
+    "explanation": "The most important task of a typical test leader is to coordinate the test strategy with project managers. The test strategy is a high-level document that defines the general approach and objectives of testing for a project or an organization. The test leader is responsible for defining, documenting, communicating, and implementing the test strategy in alignment with the project goals and constraints. The test leader also needs to coordinate with project managers and other stakeholders to ensure that the test strategy is feasible, effective, and efficient. The other options are not the most important tasks of a typical test leader. To automate tests is a task of a test automation engineer or a test automation specialist. To prepare and acquire test data is a task of a test analyst or a test engineer. To set up the test environment is a task of a test environment manager or a test environment specialist. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 13."
   },
   {
     "question_number": 79,
-    "question": "A state transition diagram describes a control system’s behavior in different operational modes. The initial state is .“NORMAL MODE” Which ONE of the following test cases covers an ?INVALID sequence NORMAL MODE # DIAGNOSTIC MODE # DEGRADED MODE # EMERGENCY MODE # DIAGNOSTIC MODE # NORMAL MODE # DIAGNOSTIC MODE NORMAL MODE # DEGRADED MODE # NORMAL MODE # DIAGNOSTIC MODE # DEGRADED MODE # EMERGENCY MODE # DIAGNOSTIC MODE",
+    "question": "A state transition diagram describes a control system’s behavior in different operational modes. The initial state is .“NORMAL MODE” \nWhich ONE of the following test cases covers an INVALID sequence?",
     "options": [
-      "A. NORMAL MODE # DIAGNOSTIC MODE # DEGRADED MODE # EMERGENCY MODE #",
-      "B. DIAGNOSTIC MODE # NORMAL MODE # DEGRADED MODE",
-      "C. NORMAL MODE # DIAGNOSTIC MODE # NORMAL MODE # DIAGNOSTIC MODE #",
-      "D. EMERGENCY MODE # DIAGNOSTIC MODE # NORMAL MODE"
+      "A. NORMAL MODE # DIAGNOSTIC MODE # DEGRADED MODE # EMERGENCY MODE # DIAGNOSTIC MODE # NORMAL MODE # DIAGNOSTIC MODE ",
+      "B. NORMAL MODE # DEGRADED MODE # NORMAL MODE # DIAGNOSTIC MODE # DEGRADED MODE # EMERGENCY MODE # DIAGNOSTIC MODE",
+      "C. NORMAL MODE # DIAGNOSTIC MODE # DEGRADED MODE # EMERGENCY MODE # DIAGNOSTIC MODE # NORMAL MODE # DEGRADED MODE",
+      "D. NORMAL MODE # DIAGNOSTIC MODE # NORMAL MODE # DIAGNOSTIC MODE #EMERGENCY MODE # DIAGNOSTIC MODE # NORMAL MODE"
     ],
     "answer": "D",
-    "explanation": "Comprehensive and Detailed In-Depth Explanation: B. D. B. D. State transition testing validates based on defined rules.valid and invalid state transitions D is invalid because it transitions , from DIAGNOSTIC MODE directly to EMERGENCY MODE which is in most systems.not a valid state change Other options follow valid sequences according to .state transition rules Reference: ISTQB CTFL v4.0 Syllabus, Section 4.2.4 – State Transition Testing"
+    "explanation": "Comprehensive and Detailed In-Depth Explanation:\nState transition testing validates valid and invalid state transitions based on defined rules.\n- D is invalid because it transitions from DIAGNOSTIC MODE directly to EMERGENCY MODE, which is not a valid state change in most systems. \n- Other options follow valid sequences according to state transition rules \n\nReference: ISTQB CTFL v4.0 Syllabus, Section 4.2.4 – State Transition Testing"
   },
   {
     "question_number": 80,
-    "question": "Which of the following statements is CORRECT about White-box testing? White-box testing helps find defects even when specifications are vague because it takes into account",
+    "question": "Which of the following statements is CORRECT about White-box testing? ",
     "options": [
-      "A. the code",
+      "A. White-box testing helps find defects even when specifications are vague because it takes into account the code",
       "B. box testing helps find defects because it provides for requirements based coverage",
       "C. White-box testing helps find defects because it focuses on defects rather than failures",
       "D. White-box testing helps find defects because they can be used to measure statement coverage"
@@ -973,23 +973,23 @@
       "D. Debugging is of no relevance in Agile development."
     ],
     "answer": "C",
-    "explanation": "Debugging is the development activity that finds, analyses and fixes defects. Unlike testing, which aims to identify defects in the software, debugging is the process that developers use to locate and correct the errors found during testing. This involves diagnosing the root causes of these defects and making necessary code changes to resolve them. Debugging is a critical part of the development cycle and ensures that the software functions correctly after defects are fixed. Reference: ISTQB CTFL Syllabus V4.0, Section 1.1.2 B. D."
+    "explanation": "Debugging is the development activity that finds, analyses and fixes defects. Unlike testing, which aims to identify defects in the software, debugging is the process that developers use to locate and correct the errors found during testing. This involves diagnosing the root causes of these defects and making necessary code changes to resolve them. Debugging is a critical part of the development cycle and ensures that the software functions correctly after defects are fixed. \n\nReference: ISTQB CTFL Syllabus V4.0, Section 1.1.2 B. D."
   },
   {
     "question_number": 82,
-    "question": "ST is a Software Testing organization which utilizes a testing knowledge base. Access to ST knowledge base can be either full or limited. Access level is determined based on ST certification and testing experience as follows: 1. If ST certified, with less than 5 years testing experience - allow limited access 2. If ST certified, 5-10 years of testing experience - allow full access 3. If not ST certified with 5-10 years of testing experience - allow limited access. What would be the results for: A - ST certified. 12 years of testing experience B - Not ST certified. 7 years of testing experience C - Not ST certified. 3 years of testing experience A - unknown B - limned access C- unknown A - full access B - limited access C - unknown A - full access B - limited access",
+    "question": "ST is a Software Testing organization which utilizes a testing knowledge base. Access to ST knowledge base can be either full or limited. Access level is determined based on ST certification and testing experience as follows: \n1. If ST certified, with less than 5 years testing experience - allow limited access \n2. If ST certified, 5-10 years of testing experience - allow full access \n3. If not ST certified with 5-10 years of testing experience - allow limited access. \nWhat would be the results for: \nA - ST certified. 12 years of testing experience \nB - Not ST certified. 7 years of testing experience \nC - Not ST certified. 3 years of testing experience ",
     "options": [
-      "A. C - limited access",
-      "B. A - unknown",
-      "C. B - full access",
-      "D. C - unknown"
+      "A. A - unknown; B - limned access; C- unknown ",
+      "B. A - full access; B - limited access; C - unknown ",
+      "C. A - full access; B - limited access; C - limited access",
+      "D. A - unknown; B - full access; C - unknown"
     ],
     "answer": "B",
-    "explanation": "The correct answer can be derived by applying the given rules to each case: B. D. A is ST certified and has 12 years of testing experience, which is more than 10 years. Therefore, A does not match any of the rules and the result is unknown. B is not ST certified and has 7 years of testing experience, which is between 5 and 10 years. Therefore, B matches rule 3 and the result is limited access. C is not ST certified and has 3 years of testing experience, which is less than 5 years. Therefore, C does not match any of the rules and the result is unknown. Verified References: This question does not require any external references, as it is based on logical reasoning."
+    "explanation": "The correct answer can be derived by applying the given rules to each case:\nA is ST certified and has 12 years of testing experience, which is more than 10 years. Therefore, A does not match any of the rules and the result is unknown. \nB is not ST certified and has 7 years of testing experience, which is between 5 and 10 years. Therefore, B matches rule 3 and the result is limited access. \nC is not ST certified and has 3 years of testing experience, which is less than 5 years. Therefore, C does not match any of the rules and the result is unknown. \n\nVerified References: This question does not require any external references, as it is based on logical reasoning."
   },
   {
     "question_number": 83,
-    "question": "Which of the following statements about re-testing and regression testing are TRUE? I Re-testing should be performed after a defect is fixed. II Regression testing should always be performed after a defect is fixed. III. Re-testing and regression testing may be performed at any test level. IV Regression testing may include functional, non-functional and structural testing. V. Re-testing should be included in the debugging activity.",
+    "question": "Which of the following statements about re-testing and regression testing are TRUE? \nI Re-testing should be performed after a defect is fixed. \nII Regression testing should always be performed after a defect is fixed. \nIII. Re-testing and regression testing may be performed at any test level. \nIV Regression testing may include functional, non-functional and structural testing. \nV. Re-testing should be included in the debugging activity.",
     "options": [
       "A. I, III. Iv",
       "B. II, v",
@@ -997,19 +997,19 @@
       "D. II. IV, V"
     ],
     "answer": "A",
-    "explanation": "The following statements about re-testing and regression testing are true: I) Re-testing should be performed after a defect is fixed. Re-testing is a type of testing that verifies that a defect has been successfully resolved by executing a test case that previously failed due to that defect. Re-testing should be performed after a defect is fixed and delivered to ensure that it does not cause any new failures or side effects. III) Re-testing and regression testing may be performed at any test level. Re-testing and regression testing are not limited to a specific test level, but can be applied at any level depending on the context and objectives. For example, re-testing and regression testing can be performed at unit level, integration level, system level or acceptance level. IV) Regression testing may include functional, non-functional and structural testing. Regression testing is a type of testing that verifies that previously tested software still performs correctly after changes. B. D. Regression testing may include various types of testing depending on the scope and purpose of the changes. For example, regression testing may include functional testing to check if the software meets its requirements, non-functional testing to check if the software meets its quality attributes, or structural testing to check if the software meets its design or code standards. The following statement about re- testing and regression testing is false: II) Regression testing should always be performed after a defect is fixed. Regression testing is not always necessary after a defect is fixed, as some defects may have a low impact or low likelihood of affecting other parts of the software. Regression testing should be performed after a defect is fixed only if there is a risk of introducing new defects or causing existing defects due to the changes made to fix the defect. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, Chapter 2, page 19; Chapter 4, page 45."
+    "explanation": "The following statements about re-testing and regression testing are true: \nI) Re-testing should be performed after a defect is fixed. Re-testing is a type of testing that verifies that a defect has been successfully resolved by executing a test case that previously failed due to that defect. Re-testing should be performed after a defect is fixed and delivered to ensure that it does not cause any new failures or side effects. \nIII) Re-testing and regression testing may be performed at any test level. Re-testing and regression testing are not limited to a specific test level, but can be applied at any level depending on the context and objectives. For example, re-testing and regression testing can be performed at unit level, integration level, system level or acceptance level. \nIV) Regression testing may include functional, non-functional and structural testing. Regression testing is a type of testing that verifies that previously tested software still performs correctly after changes. B. D. Regression testing may include various types of testing depending on the scope and purpose of the changes. For example, regression testing may include functional testing to check if the software meets its requirements, non-functional testing to check if the software meets its quality attributes, or structural testing to check if the software meets its design or code standards. The following statement about re- testing and regression testing is false: \nII) Regression testing should always be performed after a defect is fixed. Regression testing is not always necessary after a defect is fixed, as some defects may have a low impact or low likelihood of affecting other parts of the software. Regression testing should be performed after a defect is fixed only if there is a risk of introducing new defects or causing existing defects due to the changes made to fix the defect. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, Chapter 2, page 19; Chapter 4, page 45."
   },
   {
     "question_number": 84,
-    "question": "A Test Manager conducts risk assessment for a project. One of the identified risks is: The sub-contractor may fail to meet his commitment\". If this risk materializes. it will lead to delay in completion of testing required for the current cycle. Which of the following sentences correctly describes the risk? It is a product risk since any risk associated with development timeline is a product risk. It is no longer a risk for the Test Manager since an independent party (the sub-contractor) is now",
+    "question": "A Test Manager conducts risk assessment for a project. One of the identified risks is: The sub-contractor may fail to meet his commitment\". If this risk materializes. it will lead to delay in completion of testing required for the current cycle. \n\nWhich of the following sentences correctly describes the risk?",
     "options": [
-      "A. managing it",
-      "B. It is a object risk since successful completion of the object depends on successful and timely completion",
-      "C. of the tests",
+      "A. It is a product risk since any risk associated with development timeline is a product risk.",
+      "B. It is no longer a risk for the Test Manager since an independent party (the sub-contractor) is now managing it",
+      "C. It is a object risk since successful completion of the object depends on successful and timely completion of the tests",
       "D. It is a product risk since default on part of the sub-contractor may lead to delay in release of the product"
     ],
     "answer": "D",
-    "explanation": "A product risk is a risk that affects the quality or timeliness of the software product being developed or tested1. Product risks are related to the requirements, design, implementation, verification, and maintenance of the software product2. The risk of the sub-contractor failing to meet his commitment is a product risk, as it could cause a delay in the completion of the testing required for the current cycle, which in turn could affect the release date of the product. The release date is an important aspect of the product quality, as it reflects the customer satisfaction and the market competitiveness of the product3. The other options are not correct because: It is not true that any risk associated with development timeline is a product risk. Some risks could be project risks, which are risks that affect the management or control of the software project, such as budget, resources, schedule, or communication1. For example, a risk of losing a key project stakeholder is a project risk, not a product risk. B. D. It is not true that the risk is no longer a risk for the Test Manager since an independent party is managing it. The Test Manager is still responsible for ensuring that the testing activities are completed according to the test plan and the quality objectives4. The Test Manager should monitor and control the sub-contractor’s performance and communicate with him regularly to identify and mitigate any potential issues or deviations5. It is not clear what is meant by “object” in this option, but it could be interpreted as the software system under test or the test object6. In any case, the risk is not an object risk, as it does not affect the successful completion of the object, but rather the successful completion of the testing of the object. An object risk could be a risk that affects the functionality, reliability, usability, efficiency, maintainability, or portability of the software system under test2. For example, a risk of the software system having a high complexity or a low testability is an object risk, not a product risk. References = 1 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 97 2 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 98 3 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 99 4 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 100 5 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 101 6 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 102"
+    "explanation": "A product risk is a risk that affects the quality or timeliness of the software product being developed or tested1. Product risks are related to the requirements, design, implementation, verification, and maintenance of the software product2. \nThe risk of the sub-contractor failing to meet his commitment is a product risk, as it could cause a delay in the completion of the testing required for the current cycle, which in turn could affect the release date of the product. The release date is an important aspect of the product quality, as it reflects the customer satisfaction and the market competitiveness of the product3. \n\nThe other options are not correct because: \n- A. It is not true that any risk associated with development timeline is a product risk. Some risks could be project risks, which are risks that affect the management or control of the software project, such as budget, resources, schedule, or communication1. For example, a risk of losing a key project stakeholder is a project risk, not a product risk. \n- B. It is not true that the risk is no longer a risk for the Test Manager since an independent party is managing it. The Test Manager is still responsible for ensuring that the testing activities are completed according to the test plan and the quality objectives4. The Test Manager should monitor and control the sub-contractor’s performance and communicate with him regularly to identify and mitigate any potential issues or deviations5. \n- C. It is not clear what is meant by “object” in this option, but it could be interpreted as the software system under test or the test object6. In any case, the risk is not an object risk, as it does not affect the successful completion of the object, but rather the successful completion of the testing of the object. An object risk could be a risk that affects the functionality, reliability, usability, efficiency, maintainability, or portability of the software system under test2. For example, a risk of the software system having a high complexity or a low testability is an object risk, not a product risk. \n\nReferences = \n*1 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 97 \n*2 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 98 \n*3 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 99 \n*4 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 100 \n*5 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 101 \n*6 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 102"
   },
   {
     "question_number": 85,
@@ -1025,7 +1025,7 @@
   },
   {
     "question_number": 86,
-    "question": "Which ONE of the following options is a and NOT a ?PRODUCT risk PROJECT risk",
+    "question": "Which ONE of the following options is a PRODUCT risk and NOT a PROJECT risk?",
     "options": [
       "A. Incorrect calculation logic in the software, leading to inaccurate results.",
       "B. Poor communication between team members, making project management more difficult.",
@@ -1033,11 +1033,11 @@
       "D. Delays in the delivery of work products by the project team."
     ],
     "answer": "A",
-    "explanation": "Comprehensive and Detailed In-Depth Explanation: Product risks are risks that , whereas impact the quality or functionality of the softwareproject risks affect the .process, resources, or timeline (A) is correct because incorrect calculations impact software correctness. (B), (C), and (D) are project risks as they relate to team coordination, staffing, and scheduling rather than software defects. Identifying early .product risks improves defect detection and ensures better coverage for high-risk areas Reference: ISTQB CTFL v4.0 Syllabus, Section 5.2.2 – Product and Project Risks"
+    "explanation": "Comprehensive and Detailed In-Depth Explanation: \nProduct risks are risks that , whereas impact the quality or functionality of the softwareproject risks affect the .process, resources, or timeline \n*(A) is correct because incorrect calculations impact software correctness. \n*(B), (C), and (D) are project risks as they relate to team coordination, staffing, and scheduling rather than software defects. \nIdentifying early .product risks improves defect detection and ensures better coverage for high-risk areas \n\nReference: ISTQB CTFL v4.0 Syllabus, Section 5.2.2 – Product and Project Risks"
   },
   {
     "question_number": 87,
-    "question": "Select which of the following statements describe the key principles of software testing? i. Testing shows the presence of defects, not their absence. ii. Testing everything Is possible. iii. Early testing Is more expensive and is a waste of time. iv. Defects cluster together. v. Testing is context dependent. vi. Beware of the pesticide paradox. vii. Absence of errors is a fallacy. Select the correct answer:",
+    "question": "Select which of the following statements describe the key principles of software testing? \ni. Testing shows the presence of defects, not their absence. \nii. Testing everything Is possible. \niii. Early testing Is more expensive and is a waste of time. iv. Defects cluster together. \nv. Testing is context dependent. \nvi. Beware of the pesticide paradox. \nvii. Absence of errors is a fallacy. \nSelect the correct answer:",
     "options": [
       "A. i, iv, v, vi and vii",
       "B. I, ii, v. vi and vii",
@@ -1061,50 +1061,56 @@
   },
   {
     "question_number": 89,
-    "question": "The following state diagram is given as basis for state transition testing and contains only valid transitions:",
-    "options": [],
+    "question": "The following state diagram is given as basis for state transition testing and contains only valid transitions:\n\nExplanation of the state diagram: States are depicted as nodes. The initial state is I, the final state is F. A state transition is depicted as a directed arrow with the initiating event as a label, e. g. from I to S1 with event a, and is also written as a triple (I,a,S1). Note: A test case is a sequence of events that initiates the corresponding sequence of state transitions. \n\nThe state diagram contains the following 7 state transitions: \n(I, a, S1) (S1, a, S2), (S1, b, S3), (S1, c, F) \n(S2, a, S3) \n(S3, a, S2), (S3, b, F) \n\nWhat is the minimum number of test cases to achieve 100% coverage of all valid state transitions in the diagram?",
+    "attachment": "no89.png",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 8"
+    ],
     "answer": "C",
-    "explanation": "of the state diagram: States are depicted as nodes. The initial state is I, the final state is F. A state transition is depicted as a directed arrow with the initiating event as a label, e. g. from I to S1 with event a, and is also written as a triple (I,a,S1). Note: A test case is a sequence of events that initiates the corresponding sequence of state transitions. The state diagram contains the following 7 state transitions: (I, a, S1) (S1, a, S2), (S1, b, S3), (S1, c, F) (S2, a, S3) (S3, a, S2), (S3, b, F) What is the minimum number of test cases to achieve 100% coverage of all valid state transitions in the diagram? 2 3 4 8 Answer: C"
+    "explanation": ""
   },
   {
     "question_number": 90,
-    "question": "Which statement best describes the key difference between a mindset for test activities and a mindset for development activities? A tester possesses professional pessimism while a developer is concerned with validating the product A tester is concerned with finding defects while a developer is interested in designing solutions",
+    "question": "Which statement best describes the key difference between a mindset for test activities and a mindset for development activities?",
     "options": [
-      "A. A tester is interested in building solutions while a developer is concerned with verifying the product",
-      "B. ",
-      "C. ",
+      "A. A tester possesses professional pessimism while a developer is concerned with validating the product",
+      "B. A tester is concerned with finding defects while a developer is interested in designing solutions",
+      "C. A tester is interested in building solutions while a developer is concerned with verifying the product",
       "D. A tester is concerned with verifying the product while a developer possesses professional pessimism"
     ],
     "answer": "B",
-    "explanation": "The key difference between the mindsets for test activities and development activities lies in the objectives: a tester is primarily concerned with finding defects to ensure product quality, while a developer focuses on designing and building solutions. This distinct focus helps ensure thorough quality checks and balances within the software development life cycle (ISTQB not-for-profit association). References: ISTQB® Certified Tester Foundation Level Syllabus v4.0: https://istqb-main-web-prod.s3.amazonaws.com /media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf"
+    "explanation": "The key difference between the mindsets for test activities and development activities lies in the objectives: a tester is primarily concerned with finding defects to ensure product quality, while a developer focuses on designing and building solutions. This distinct focus helps ensure thorough quality checks and balances within the software development life cycle (ISTQB not-for-profit association). \n\nReferences: ISTQB® Certified Tester Foundation Level Syllabus v4.0: https://istqb-main-web-prod.s3.amazonaws.com /media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf"
   },
   {
     "question_number": 91,
-    "question": "Which of the following BEST matches the attributes with a level of testing? I. Stubs and drivers are often used II The lest environment should correspond to the production environment III Finding defects is not the main focus IV Testing can be based on use cases V Testing is normally performed by testers VI Testing for functional and non-functional characteristics Component - VI Integration - IV System -1 Acceptance - 111 Component - IV Integration -1 System - VI Acceptance - V Component-I Integration - V System - II Acceptance - IV",
+    "question": "Which of the following BEST matches the attributes with a level of testing? \nI. Stubs and drivers are often used \nII The lest environment should correspond to the production environment \nIII Finding defects is not the main focus \nIV Testing can be based on use cases \nV Testing is normally performed by testers \nVI Testing for functional and non-functional characteristics ",
     "options": [
-      "A. Component - V",
-      "B. Integration - II",
-      "C. System - IV",
-      "D. Acceptance - VI"
+      "A. Component - VI \nIntegration - IV \nSystem -1 \nAcceptance - 111 ",
+      "B. Component - IV \nIntegration -1 \nSystem - VI \nAcceptance - V ",
+      "C. Component - I \nIntegration - \nV System - II Acceptance - IV",
+      "D. Component - V \nIntegration - II\nSystem - IV\nAcceptance - VI"
     ],
     "answer": "D",
-    "explanation": "The relationship between impact analysis and regression testing in maintenance testing is that impact analysis is used to evaluate the amount of regression testing to be performed. Maintenance testing is a type of testing that is performed on an existing software product after it has been delivered or deployed, in order to ensure that it still meets its requirements and functions correctly after a change or a modification. Maintenance testing can be triggered by various reasons, such as corrective maintenance (fixing defects), adaptive maintenance (adapting to new environments), perfective maintenance (improving performance), preventive maintenance (avoiding future problems), etc. Impact analysis is a technique that is used to assess the extent and nature of changes introduced by maintenance activities on the software product or project. Impact analysis helps to identify which parts of the software product are affected by the changes, which parts need to be modified or updated accordingly, which parts need to be retested or verified for correctness or compatibility, etc. Regression testing is a type of testing that verifies that previously tested software still performs correctly after a change or a modification. Regression testing helps to detect any side effects or unintended consequences of maintenance activities on the software product’s functionality or quality. Regression testing can be performed at various levels and scopes depending on the impact analysis results. Therefore, in maintenance testing, impact analysis is used to evaluate the amount of regression testing to be performed. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 20."
+    "explanation": "The relationship between impact analysis and regression testing in maintenance testing is that impact analysis is used to evaluate the amount of regression testing to be performed. Maintenance testing is a type of testing that is performed on an existing software product after it has been delivered or deployed, in order to ensure that it still meets its requirements and functions correctly after a change or a modification. Maintenance testing can be triggered by various reasons, such as corrective maintenance (fixing defects), adaptive maintenance (adapting to new environments), perfective maintenance (improving performance), preventive maintenance (avoiding future problems), etc. Impact analysis is a technique that is used to assess the extent and nature of changes introduced by maintenance activities on the software product or project. Impact analysis helps to identify which parts of the software product are affected by the changes, which parts need to be modified or updated accordingly, which parts need to be retested or verified for correctness or compatibility, etc. Regression testing is a type of testing that verifies that previously tested software still performs correctly after a change or a modification. Regression testing helps to detect any side effects or unintended consequences of maintenance activities on the software product’s functionality or quality. Regression testing can be performed at various levels and scopes depending on the impact analysis results. Therefore, in maintenance testing, impact analysis is used to evaluate the amount of regression testing to be performed. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 20."
   },
   {
     "question_number": 92,
-    "question": "Which of the following coverage criteria results in the highest coverage for state transition based test cases? Can't be determined Covering all transitions at least once",
+    "question": "Which of the following coverage criteria results in the highest coverage for state transition based test cases?",
     "options": [
-      "A. Covering only start and end states",
-      "B. Covering all states at least once",
-      "C. ",
-      "D. "
+      "A. Can't be determined",
+      "B. Covering all transitions at least once",
+      "C. Covering only start and end states ",
+      "D. Covering all states at least once"
     ],
     "answer": "B",
-    "explanation": "Covering all transitions at least once is the highest coverage criterion for state transition based test cases, because it ensures that every possible change of state is tested at least once. This means that all the events that trigger the transitions, as well as the actions and outputs that result from the transitions, are verified. Covering all transitions at least once also implies covering all states at least once, but not vice versa. Therefore, option D is not the highest coverage criterion. Option C is the lowest coverage criterion, because it only tests the initial and final states of the system or component, without checking the intermediate states or transitions. Option A is incorrect, because the coverage criteria for state transition based test cases can be determined and compared based on the number of transitions and states covered. References = CTFL 4.0 Syllabus, Section 4.2.3, page 49-50."
+    "explanation": "Covering all transitions at least once is the highest coverage criterion for state transition based test cases, because it ensures that every possible change of state is tested at least once. This means that all the events that trigger the transitions, as well as the actions and outputs that result from the transitions, are verified. Covering all transitions at least once also implies covering all states at least once, but not vice versa. Therefore, option D is not the highest coverage criterion. Option C is the lowest coverage criterion, because it only tests the initial and final states of the system or component, without checking the intermediate states or transitions. Option A is incorrect, because the coverage criteria for state transition based test cases can be determined and compared based on the number of transitions and states covered. \n\nReferences = CTFL 4.0 Syllabus, Section 4.2.3, page 49-50."
   },
   {
     "question_number": 93,
-    "question": "Which of the following statements about decision tables are TRUE? I. Generally, decision tables are generated for low risk test items. II. Test cases derived from decision tables can be used for component tests. III. Several test cases can be selected for each column of the decision table. IV. The conditions in the decision table represent negative tests generally.",
+    "question": "Which of the following statements about decision tables are TRUE? \nI. Generally, decision tables are generated for low risk test items. \nII. Test cases derived from decision tables can be used for component tests. \nIII. Several test cases can be selected for each column of the decision table. \nIV. The conditions in the decision table represent negative tests generally.",
     "options": [
       "A. I. Ill",
       "B. I, IV",
@@ -1112,11 +1118,11 @@
       "D. II. Ill"
     ],
     "answer": "D",
-    "explanation": "A decision table is a technique that shows combinations of inputs and/or stimuli (causes) with their associated outputs and/or actions (effects). A decision table consists of four quadrants: conditions (inputs), actions (outputs), condition entries (values) and action entries (results). The following statements about decision tables are true: II. Test cases derived from decision tables can be used for component tests. Decision tables can be used to test components that have multiple inputs and outputs that depend on logical combinations of conditions. Decision tables can help cover all possible combinations or scenarios in a systematic way. III. Several test cases can be selected for each column of the decision table. A column of a decision table represents a unique combination of condition entries and action entries. Several test cases can be selected for each column by varying other input values or expected results that are not part of the decision table. The following statements about decision tables are false: B. D. I. Generally, decision tables are generated for low risk test items. Decision tables are not related to risk level, but rather to complexity level. Decision tables are generated for test items that have complex logic or multiple conditions and actions that need to be tested. IV. The conditions in the decision table represent negative tests generally. The conditions in the decision table represent both positive and negative tests, depending on whether they are valid or invalid inputs for the test item. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, Chapter 4, page 42-43."
+    "explanation": "A decision table is a technique that shows combinations of inputs and/or stimuli (causes) with their associated outputs and/or actions (effects). A decision table consists of four quadrants: conditions (inputs), actions (outputs), condition entries (values) and action entries (results). The following statements about decision tables are true: \n- II. Test cases derived from decision tables can be used for component tests. Decision tables can be used to test components that have multiple inputs and outputs that depend on logical combinations of conditions. Decision tables can help cover all possible combinations or scenarios in a systematic way. \n- III. Several test cases can be selected for each column of the decision table. A column of a decision table represents a unique combination of condition entries and action entries. Several test cases can be selected for each column by varying other input values or expected results that are not part of the decision table. \n\nThe following statements about decision tables are false: \n- I. Generally, decision tables are generated for low risk test items. Decision tables are not related to risk level, but rather to complexity level. Decision tables are generated for test items that have complex logic or multiple conditions and actions that need to be tested. \nIV. The conditions in the decision table represent negative tests generally. The conditions in the decision table represent both positive and negative tests, depending on whether they are valid or invalid inputs for the test item. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, Chapter 4, page 42-43."
   },
   {
     "question_number": 94,
-    "question": "4 equivalence classes are given for integer values: 0 < x <100 100<= x <= 200 200 < x < 500 x >= 500 Which of the following options represent correct set of data for valid equivalence class partitions?",
+    "question": "4 equivalence classes are given for integer values: \n0 < x <100 \n100<= x <= 200 \n200 < x < 500 \nx >= 500 \nWhich of the following options represent correct set of data for valid equivalence class partitions?",
     "options": [
       "A. 50; 100; 200. 1000",
       "B. 0. 1.99, 100.200,201.499, 500;",
@@ -1124,23 +1130,23 @@
       "D. 50; 100; 250; 1000"
     ],
     "answer": "C",
-    "explanation": "The correct set of data for valid equivalence class partitions should include one value from each equivalence class, and no value from outside the range. Option C satisfies this condition, as it has one value from each of the four equivalence classes (50, 100, 250, 500). Option A has two values from the same equivalence class (100 and 200), option B has values outside the range (0 and 0.99), and option D has two values from the same equivalence class (1000 and 500). Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 35."
+    "explanation": "The correct set of data for valid equivalence class partitions should include one value from each equivalence class, and no value from outside the range. Option C satisfies this condition, as it has one value from each of the four equivalence classes (50, 100, 250, 500). Option A has two values from the same equivalence class (100 and 200), option B has values outside the range (0 and 0.99), and option D has two values from the same equivalence class (1000 and 500). \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 35."
   },
   {
     "question_number": 95,
-    "question": "To be able to define testable acceptance criteria, specific topics need to be addressed. In the table below are the topics matched to an incorrect description. Match the topics (the left column) with the correct description (the right column) E. F. G. H. TopicDescription How the system performs the specific behaviour. 8: Quality characteristicsB: A sequence of actions between an external actor and the system, to accomplish a specific goal or business task. ScenariosC: The externally observable behaviour with user actions as input operating under certain configurations. Business rulesD; Description of the connections between the system to be developed and the outside world. External interfacesE: Activities that can only be performed in the system under certain conditions defined by outside procedures and constraints.",
+    "question": "To be able to define testable acceptance criteria, specific topics need to be addressed. In the table below are the topics matched to an incorrect description. Match the topics (the left column) with the correct description (the right column) \nTopicDescription \n A. How the system performs the specific behaviour. \n8: Quality characteristicsB: A sequence of actions between an external actor and the system, to accomplish a specific goal or business task. \nB. ScenariosC: The externally observable behaviour with user actions as input operating under certain configurations. \nC. Business rulesD; Description of the connections between the system to be developed and the outside world. \nD. External interfacesE: Activities that can only be performed in the system under certain conditions defined by outside procedures and constraints.",
     "options": [
-      "A. A to C, B to A, C to B. D to E and E to D",
+      "A. A to C, B to A, C to B, D to E and E to D",
       "B. A to E, B to A, C to B, D to C and E to D",
       "C. A to C, B to A, C to B, D to D and E to E",
-      "D. A TO A, B TO B, CTOB, DTO E AND E TO D"
+      "D. A TO A, B TO B, C TO B, D TO E AND E TO D"
     ],
     "answer": "A",
-    "explanation": "The correct matching of the topics with their descriptions is as follows: Functional behaviour: The externally observable behaviour with user actions as input operating under certain configurations (A to C). Quality characteristics: How the system performs the specific behaviour (B to A). Scenarios: A sequence of actions between an external actor and the system, to accomplish a specific goal or business task (C to B). Business rules: Activities that can only be performed in the system under certain conditions defined by outside procedures and constraints (D to E). External interfaces: Description of the connections between the system to be developed and the outside world (E to D)."
+    "explanation": "The correct matching of the topics with their descriptions is as follows: \n- Functional behaviour: The externally observable behaviour with user actions as input operating under certain configurations (A to C). \n- Quality characteristics: How the system performs the specific behaviour (B to A). \n- Scenarios: A sequence of actions between an external actor and the system, to accomplish a specific goal or business task (C to B). \n- Business rules: Activities that can only be performed in the system under certain conditions defined by outside procedures and constraints (D to E). \n- External interfaces: Description of the connections between the system to be developed and the outside world (E to D)."
   },
   {
     "question_number": 96,
-    "question": "You are working in an agile team on the creation of software for use in robotic assistance systems that support industrial manufacturing processes. You are currently in the effort estimation phase using planning poker. In the current sprint, three user stories are to be implemented: E. F. G. The assistance system is to have a customizable layout. For this purpose, the user should be able to choose between 3 combinations of font size and background color at startup. In the initialization phase, the assistance system should validate the inputs of the 10 customer specific and process specific parameters against a list of 5 consistency rules and display the result to the user. The assistance system currently supports the manufacturing process with 2 robot gripper arms, this shall be extended to 5 gripper arms. In addition, the system shall perform a pre-calculation of the movements of all gripper arms in real time and automatically stop the system in case of a calculated collision of the gripper arms. You are now asked to estimate the test effort for each of these user stories by using planning poker. The following value rules apply for the test effort estimation: 3 - low (<= 10 test cases) 8 - medium (> 10 and <= 20 test cases) 13 - high (> 20 and <= 50 test cases) 21 - very high (> 50 and <= 100 test cases) 34 - too complex (number of test cases cannot be estimated from information) For each of the three user stories, which planning poker value makes the most sense when estimating the test effort?",
+    "question": "You are working in an agile team on the creation of software for use in robotic assistance systems that support industrial manufacturing processes. You are currently in the effort estimation phase using planning poker. In the current sprint, three user stories are to be implemented: \nA. The assistance system is to have a customizable layout. For this purpose, the user should be able to choose between 3 combinations of font size and background color at startup. \nB. In the initialization phase, the assistance system should validate the inputs of the 10 customer specific and process specific parameters against a list of 5 consistency rules and display the result to the user. \nC.The assistance system currently supports the manufacturing process with 2 robot gripper arms, this shall be extended to 5 gripper arms. In addition, the system shall perform a pre-calculation of the movements of all gripper arms in real time and automatically stop the system in case of a calculated collision of the gripper arms. \n\nYou are now asked to estimate the test effort for each of these user stories by using planning poker. The following value rules apply for the test effort estimation: \n3 - low (<= 10 test cases) \n8 - medium (> 10 and <= 20 test cases) \n13 - high (> 20 and <= 50 test cases) \n21 - very high (> 50 and <= 100 test cases) \n34 - too complex (number of test cases cannot be estimated from information) \n\nFor each of the three user stories, which planning poker value makes the most sense when estimating the test effort?",
     "options": [
       "A. A:3; B:21; C:8;",
       "B. A:21; B:13; C:13;",
@@ -1152,27 +1158,27 @@
   },
   {
     "question_number": 97,
-    "question": "The ISTOB glossary defines Quality Assurance as: \"Pail or quality management focused on providing confidence that quality requirements will be fulfilled. Which of the following Is not one of the Quality Assurance activity? Requirements elicitation Defect analysis",
+    "question": "The ISTOB glossary defines Quality Assurance as: \"Pail or quality management focused on providing confidence that quality requirements will be fulfilled. Which of the following Is not one of the Quality Assurance activity?",
     "options": [
-      "A. Functional Testing",
-      "B. ",
-      "C. ",
+      "A. Requirements elicitation",
+      "B. Defect analysis",
+      "C. Functional Testing",
       "D. Performance Testing"
     ],
     "answer": "C",
-    "explanation": "Quality Assurance (QA) activities are focused on providing confidence that quality requirements will be fulfilled through planned and systematic processes. These activities are preventive in nature, aimed at ensuring quality is built into the product from the beginning. Requirements elicitation (A) is part of the requirements engineering process and is concerned with gathering the needs and conditions to meet for a new or altered product. Defect analysis (B) can be part of QA activities as it involves analyzing defects to prevent them in future development cycles. Functional Testing (C) and Performance Testing (D) are types of dynamic testing, which are actually Quality Control activities rather than Quality Assurance. They are concerned with the identification of defects in the product, not with the processes to prevent defects. Since the question asks for an activity that is NOT part of Quality Assurance, options A and B are incorrect because they can be part of QA activities. Between C and D, while both are dynamic testing activities, Functional Testing (C) is more directly related to verifying the functionality against specified requirements, which is more aligned with Quality Control. Therefore, C is the best answer."
+    "explanation": "Quality Assurance (QA) activities are focused on providing confidence that quality requirements will be fulfilled through planned and systematic processes. These activities are preventive in nature, aimed at ensuring quality is built into the product from the beginning. \n- Requirements elicitation (A) is part of the requirements engineering process and is concerned with gathering the needs and conditions to meet for a new or altered product. \n- Defect analysis (B) can be part of QA activities as it involves analyzing defects to prevent them in future development cycles. \n- Functional Testing (C) and Performance Testing (D) are types of dynamic testing, which are actually Quality Control activities rather than Quality Assurance. They are concerned with the identification of defects in the product, not with the processes to prevent defects. \nSince the question asks for an activity that is NOT part of Quality Assurance, options A and B are incorrect because they can be part of QA activities. Between C and D, while both are dynamic testing activities, Functional Testing (C) is more directly related to verifying the functionality against specified requirements, which is more aligned with Quality Control. Therefore, C is the best answer."
   },
   {
     "question_number": 98,
-    "question": "Which of the following about typical information found within a test plan is FALSE? The need to temporarily have additional test personnel available for specific test phases and/or test",
+    "question": "Which of the following about typical information found within a test plan is FALSE?",
     "options": [
-      "A. activities",
+      "A.  The need to temporarily have additional test personnel available for specific test phases and/or test activities",
       "B. The conditions that must be met in order for the test execution activities to be considered completed.",
       "C. The list of the product risks which have not been fully mitigated at the end of test execution.",
       "D. The conditions that must be met for part of all the planned activities to be suspended and resumed."
     ],
     "answer": "C",
-    "explanation": "A typical test plan includes various elements, such as resource requirements, test completion criteria, and suspension/resumption criteria. However, the list of product risks that have not been fully mitigated is generally not included in the test plan but rather in the risk management documentation. The test plan focuses on planning and executing tests, including resource allocation and defining criteria for test suspension and resumption. B. D. B. D. While risk management is crucial, unmitigated risks are typically documented in risk logs or separate risk management plans. Reference: ISTQB CTFL Syllabus V4.0, Chapter 5.1.1, Test Planning."
+    "explanation": "A typical test plan includes various elements, such as resource requirements, test completion criteria, and suspension/resumption criteria. However, the list of product risks that have not been fully mitigated is generally not included in the test plan but rather in the risk management documentation. \n- The test plan focuses on planning and executing tests, including resource allocation and defining criteria for test suspension and resumption. \n- While risk management is crucial, unmitigated risks are typically documented in risk logs or separate risk management plans. \n\nReference: ISTQB CTFL Syllabus V4.0, Chapter 5.1.1, Test Planning."
   },
   {
     "question_number": 99,
@@ -1184,23 +1190,23 @@
       "D. When it is cheap to buy test automation tools"
     ],
     "answer": "B",
-    "explanation": "A correct reason to apply test automation is when there are a lot of repetitive testing tasks. Test automation is the use of software tools or scripts to perform or support testing activities, such as test case execution, test result comparison, test data generation, etc. Test automation can be beneficial when there are a lot of repetitive testing tasks that need to be performed frequently or consistently, such as regression testing, performance testing, load testing, etc. Test automation can help to save time and effort, increase reliability and accuracy, and improve coverage and efficiency of testing. The other options are not correct reasons to apply test automation. When a new test automation tool is launched is not a reason to apply test automation, but rather a factor for choosing a test automation tool. When it is easy to automate is not a reason to apply test automation, but rather a factor for evaluating the feasibility of test automation. When it is cheap to buy test automation tools is not a reason to apply test automation, but rather a factor for estimating the cost and benefit of test automation. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 10."
+    "explanation": "A correct reason to apply test automation is when there are a lot of repetitive testing tasks. Test automation is the use of software tools or scripts to perform or support testing activities, such as test case execution, test result comparison, test data generation, etc. Test automation can be beneficial when there are a lot of repetitive testing tasks that need to be performed frequently or consistently, such as regression testing, performance testing, load testing, etc. Test automation can help to save time and effort, increase reliability and accuracy, and improve coverage and efficiency of testing. The other options are not correct reasons to apply test automation. When a new test automation tool is launched is not a reason to apply test automation, but rather a factor for choosing a test automation tool. When it is easy to automate is not a reason to apply test automation, but rather a factor for evaluating the feasibility of test automation. When it is cheap to buy test automation tools is not a reason to apply test automation, but rather a factor for estimating the cost and benefit of test automation. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 10."
   },
   {
     "question_number": 100,
-    "question": "Which of the following statements about estimation of the test effort is WRONG? Once the test effort is estimated, resources can be identified and a schedule can be drawn up. Effort estimate can be inaccurate because the quality of the product under tests is not known.",
+    "question": "Which of the following statements about estimation of the test effort is WRONG?",
     "options": [
-      "A. Effort estimate depends on the budget of the project.",
-      "B. Experience based estimation is one of the estimation techniques.",
-      "C. ",
-      "D. "
+      "A.  Once the test effort is estimated, resources can be identified and a schedule can be drawn up.",
+      "B.  Effort estimate can be inaccurate because the quality of the product under tests is not known.",
+      "C.  Effort estimate depends on the budget of the project.",
+      "D.  Experience based estimation is one of the estimation techniques."
     ],
     "answer": "C",
-    "explanation": "Effort estimate does not depend on the budget of the project, but rather on the scope, complexity, and quality of the software product and the testing activities1. Budget is a constraint that may affect the feasibility and accuracy of the effort estimate, but it is not a factor that determines the effort estimate. Effort estimate is the amount of work required to complete the testing activities, measured in terms of person-hours, person-days, or person-months2. The other options are correct because: Once the test effort is estimated, resources can be identified and a schedule can be drawn up, as they are interrelated aspects of the test planning process3. Resources are the people, tools, equipment, and facilities needed to perform the testing activities4. Schedule is the time frame and sequence of the testing activities, aligned with the project milestones and deadlines5. Effort estimate can be inaccurate because the quality of the product under tests is not known, as it affects the number and severity of the defects that may be found and the rework that may be needed to fix them6. Quality is the degree to which the software product satisfies the specified requirements and meets the needs and expectations of the users and clients7. Experience based estimation is one of the estimation techniques, which relies on the judgment and expertise of the testers and other project stakeholders to estimate the test effort based on similar projects or tasks done in the past. Experience based estimation can be useful when there is a lack of historical data, formal methods, or detailed information about the software product and the testing activities. References = 1 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 154 2 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 155 3 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 156 4 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 157 5 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 158 6 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 159 7 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 16 [8] ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 160 [9] ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 161"
+    "explanation": "Effort estimate does not depend on the budget of the project, but rather on the scope, complexity, and quality of the software product and the testing activities1. Budget is a constraint that may affect the feasibility and accuracy of the effort estimate, but it is not a factor that determines the effort estimate. Effort estimate is the amount of work required to complete the testing activities, measured in terms of person-hours, person-days, or person-months2. \n\nThe other options are correct because: \n A. Once the test effort is estimated, resources can be identified and a schedule can be drawn up, as they are interrelated aspects of the test planning process3. Resources are the people, tools, equipment, and facilities needed to perform the testing activities4. Schedule is the time frame and sequence of the testing activities, aligned with the project milestones and deadlines5. \n B. Effort estimate can be inaccurate because the quality of the product under tests is not known, as it affects the number and severity of the defects that may be found and the rework that may be needed to fix them6. Quality is the degree to which the software product satisfies the specified requirements and meets the needs and expectations of the users and clients7. \n D. Experience based estimation is one of the estimation techniques, which relies on the judgment and expertise of the testers and other project stakeholders to estimate the test effort based on similar projects or tasks done in the past. Experience based estimation can be useful when there is a lack of historical data, formal methods, or detailed information about the software product and the testing activities. \nReferences = \n*1 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 154 \n*2 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 155 \n*3 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 156 \n*4 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 157 \n*5 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 158 \n*6 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 159 \n*7 ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 16 \n*[8] ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 160 \n*[9] ISTQB® Certified Tester Foundation Level Syllabus v4.0, 2023, p. 161"
   },
   {
     "question_number": 101,
-    "question": "As a result of the joint evaluation of a product version with the customer, it has been concluded that it would be appropriate to retrieve an earlier version of the product and carry out a benchmark. Depending on the result, further development will be carried out based on the current version or the retrieved version. Which mechanism, process, and/or technique will allow the specific version (including the testing work products) of a given software product to be restored?",
+    "question": "As a result of the joint evaluation of a product version with the customer, it has been concluded that it would be appropriate to retrieve an earlier version of the product and carry out a benchmark. Depending on the result, further development will be carried out based on the current version or the retrieved version.\n\n Which mechanism, process, and/or technique will allow the specific version (including the testing work products) of a given software product to be restored?",
     "options": [
       "A. Defect management",
       "B. Configuration management",
@@ -1208,28 +1214,28 @@
       "D. Risk management"
     ],
     "answer": "B",
-    "explanation": "Comprehensive and Detailed In-Depth Explanation: Configuration management (B) ensures that are properly tracked, versions of software and test artifacts stored, and retrievable. It allows teams to: Restore earlier versions of software and test work products Maintain traceability between requirements, tests, and code Avoid discrepancies due to mismanaged versions (A) is incorrect because defect management .tracks issues but does not restore versions (C) is incorrect because change management .controls changes but does not track past versions (D) is incorrect because risk management .assesses risks but does not manage software versions Effective configuration management ensures the ability to roll back changes and maintain system stability. Reference: ISTQB CTFL v4.0 Syllabus, Section 5.4 – Configuration Management"
+    "explanation": "Comprehensive and Detailed In-Depth Explanation: \nConfiguration management (B) ensures that are properly tracked, versions of software and test artifacts stored, and retrievable. It allows teams to: \n- Restore earlier versions of software and test work products \n- Maintain traceability between requirements, tests, and code \n- Avoid discrepancies due to mismanaged versions \n- (A) is incorrect because defect management .tracks issues but does not restore versions \n- (C) is incorrect because change management .controls changes but does not track past versions \n- (D) is incorrect because risk management .assesses risks but does not manage software versions \nEffective configuration management ensures the ability to roll back changes and maintain system stability. \n\nReference: ISTQB CTFL v4.0 Syllabus, Section 5.4 – Configuration Management"
   },
   {
     "question_number": 102,
-    "question": "You need to test the login page of a web site. The page contains fields for user name and password. Which test design techniques are most appropriate for this case? Decision table testing, state transition testing.",
+    "question": "You need to test the login page of a web site. The page contains fields for user name and password. Which test design techniques are most appropriate for this case? ",
     "options": [
-      "A. ",
+      "A. Decision table testing, state transition testing.",
       "B. Equivalence partitioning, Boundary value analysis.",
       "C. Exploratory testing, statement coverage.",
       "D. Decision coverage, fault attack."
     ],
     "answer": "B",
-    "explanation": "Equivalence partitioning and boundary value analysis are test design techniques that are most appropriate for testing the login page of a web site. The page contains fields for user name and password, which are input values that can be divided into partitions of equivalent data. Equivalence partitioning is a technique that divides the input data and output results of a software component into partitions of equivalent data. Each partition should contain data that is treated in the same way by the component. Equivalence partitioning can be used to reduce the number of test cases by selecting one representative value from each partition. Boundary value analysis is a technique that tests boundary values between partitions of equivalent data. Boundary values are values at the edge of an equivalence partition or at the smallest incremental distance on either side of an edge. Boundary value analysis can be used to detect defects caused by incorrect handling of boundary conditions. For example, for testing the user name field, we can identify two equivalence partitions: valid user name (existing and correct) and invalid user name (non-existing or incorrect). The boundary values for these partitions are the minimum and maximum length of user name allowed by the system. Decision table testing and state transition testing are not suitable for testing the login page of a web site, as they are more applicable for testing components that have multiple inputs and outputs that depend on logical combinations of conditions or events. Decision table testing is a technique that shows combinations of inputs and/or stimuli (causes) with their associated outputs and/or actions (effects). State transition testing is a technique that models how a system transitions from one state to another depending on events or conditions. Exploratory testing and statement coverage are not suitable for testing the login page of a web site, as they are more applicable for testing components that require learning, creativity and intuition or structural analysis. Exploratory testing is an approach to testing that emphasizes learning, test design and test execution at the same time. Exploratory testing relies on the tester’s skills, creativity and intuition to explore the software under test and discover defects. Statement coverage is a type of structural testing that measures how many statements in a program have been executed by a test suite. Statement coverage can be used to assess the adequacy or completeness of a test suite. Decision coverage and fault attack are not suitable for testing the login page of a web site, as they are more applicable for testing components that have complex logic or potential errors. Decision coverage is a type of structural testing that measures how many decision outcomes in a program have been executed by a test suite. Decision coverage can be used to assess the adequacy or completeness of a test suite. Fault attack is a type of functional testing that deliberately introduces faults into a system in order to provoke failures or errors. Verified References: [A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer], Chapter 4, page 34-46; Chapter 5, page 47-48."
+    "explanation": "Equivalence partitioning and boundary value analysis are test design techniques that are most appropriate for testing the login page of a web site. The page contains fields for user name and password, which are input values that can be divided into partitions of equivalent data. Equivalence partitioning is a technique that divides the input data and output results of a software component into partitions of equivalent data. Each partition should contain data that is treated in the same way by the component. Equivalence partitioning can be used to reduce the number of test cases by selecting one representative value from each partition. Boundary value analysis is a technique that tests boundary values between partitions of equivalent data. Boundary values are values at the edge of an equivalence partition or at the smallest incremental distance on either side of an edge. Boundary value analysis can be used to detect defects caused by incorrect handling of boundary conditions. For example, for testing the user name field, we can identify two equivalence partitions: valid user name (existing and correct) and invalid user name (non-existing or incorrect). The boundary values for these partitions are the minimum and maximum length of user name allowed by the system. \n\nDecision table testing and state transition testing are not suitable for testing the login page of a web site, as they are more applicable for testing components that have multiple inputs and outputs that depend on logical combinations of conditions or events. Decision table testing is a technique that shows combinations of inputs and/or stimuli (causes) with their associated outputs and/or actions (effects). State transition testing is a technique that models how a system transitions from one state to another depending on events or conditions. \n\nExploratory testing and statement coverage are not suitable for testing the login page of a web site, as they are more applicable for testing components that require learning, creativity and intuition or structural analysis. Exploratory testing is an approach to testing that emphasizes learning, test design and test execution at the same time. Exploratory testing relies on the tester’s skills, creativity and intuition to explore the software under test and discover defects. Statement coverage is a type of structural testing that measures how many statements in a program have been executed by a test suite. Statement coverage can be used to assess the adequacy or completeness of a test suite. \n\nDecision coverage and fault attack are not suitable for testing the login page of a web site, as they are more applicable for testing components that have complex logic or potential errors. Decision coverage is a type of structural testing that measures how many decision outcomes in a program have been executed by a test suite. Decision coverage can be used to assess the adequacy or completeness of a test suite. Fault attack is a type of functional testing that deliberately introduces faults into a system in order to provoke failures or errors. \n\nVerified References: [A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer], Chapter 4, page 34-46; Chapter 5, page 47-48."
   },
   {
     "question_number": 103,
-    "question": "Which of the following statements about TDD, BDD and ATDD is TRUE? Refactonng is a practice that is an integral part of TDD and is applied both to tests and to code wntten to satisfy those tests. ATDD is a black-box test design technique that is applicable exclusively at acceptance test level.",
+    "question": "Which of the following statements about TDD, BDD and ATDD is TRUE?",
     "options": [
-      "A. BDD is a developer practice where business stakeholders are not usually involved as the tests are",
-      "B. directly written at unit/component test level.",
-      "C. ATDD is the practice of running the automated acceptance tests as part of a continuous integration",
-      "D. process."
+      "A. Refactonng is a practice that is an integral part of TDD and is applied both to tests and to code wntten to satisfy those tests.",
+      "B. ATDD is a black-box test design technique that is applicable exclusively at acceptance test level.",
+      "C. BDD is a developer practice where business stakeholders are not usually involved as the tests aredirectly written at unit/component test level.",
+      "D. ATDD is the practice of running the automated acceptance tests as part of a continuous integration process."
     ],
     "answer": "A",
     "explanation": "Test-Driven Development (TDD) emphasizes writing tests before code and includes refactoring as a key practice to improve both the tests and the code. This ensures that the codebase remains clean and maintainable. The ISTQB CTFL Syllabus v4.0 discusses TDD as a practice that includes writing tests first, coding to satisfy those tests, and then refactoring the code to improve its structure and readability while keeping the tests intact."
@@ -1248,12 +1254,12 @@
   },
   {
     "question_number": 105,
-    "question": "For a given set of test-cases, which of the following is a benefit of running these tests with a test automation tool? Test coverage is increased The total cost of the test project always decreases",
+    "question": "For a given set of test-cases, which of the following is a benefit of running these tests with a test automation tool?",
     "options": [
-      "A. The time spent on repetitive tasks is reduced",
-      "B. The number of found bugs is reduced",
-      "C. ",
-      "D. "
+      "A. Test coverage is increased ",
+      "B. The total cost of the test project always decreases",
+      "C. The time spent on repetitive tasks is reduced",
+      "D. The number of found bugs is reduced"
     ],
     "answer": "C",
     "explanation": ""
@@ -1272,43 +1278,43 @@
   },
   {
     "question_number": 107,
-    "question": "Which of the following are valid testing principles? I) Exhaustive testing is in general impossible. II) Exhaustive testing should be executed for code intended to be reused. III) Testing may guarantee that a program is correct. IV) Testing cannot guarantee that a program is correct. V) Defects cluster together in certain areas of the product. I, IV, V II, Iv",
+    "question": "Which of the following are valid testing principles? \nI) Exhaustive testing is in general impossible. \nII) Exhaustive testing should be executed for code intended to be reused. \nIII) Testing may guarantee that a program is correct. \nIV) Testing cannot guarantee that a program is correct. \nV) Defects cluster together in certain areas of the product.",
     "options": [
-      "A. I, V",
-      "B. I, Ill",
-      "C. ",
-      "D. "
+      "A. I, IV, V",
+      "B. II, Iv",
+      "C.  I, V",
+      "D. I, Ill"
     ],
     "answer": "A",
-    "explanation": "Statements I, IV and V are valid testing principles according to the ISTQB syllabus. Statement I states that exhaustive testing is in general impossible, because it would require testing all possible inputs, outputs and combinations of states, which is usually impractical or impossible. Statement IV states that testing cannot guarantee that a program is correct, because testing can only show the presence of defects, not their absence. Statement V states that defects cluster together in certain areas of the product, which means that some modules or functions are more likely to contain defects than others. Statements II and III are invalid testing principles. Statement II states that exhaustive testing should be executed for code intended to be reused, which contradicts statement I. Statement III states that testing may guarantee that a program is correct, which contradicts statement IV. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, pages 4-5."
+    "explanation": "Statements I, IV and V are valid testing principles according to the ISTQB syllabus. Statement I states that exhaustive testing is in general impossible, because it would require testing all possible inputs, outputs and combinations of states, which is usually impractical or impossible. Statement IV states that testing cannot guarantee that a program is correct, because testing can only show the presence of defects, not their absence. Statement V states that defects cluster together in certain areas of the product, which means that some modules or functions are more likely to contain defects than others. Statements II and III are invalid testing principles. Statement II states that exhaustive testing should be executed for code intended to be reused, which contradicts statement I. Statement III states that testing may guarantee that a program is correct, which contradicts statement IV. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, pages 4-5."
   },
   {
     "question_number": 108,
-    "question": "Pariksha labs is a mature software testing company. They are TMMi level 5 certified. Their testing processes are well defined. Which ONE of the following statements is likely to be CORRECT about them? The company uses same test strategy for all the projects doing minor changes based on test manager responsible for the project because their test strategy template is very mature and do not need to change They try to perform 100% automation for every project because automation is a must for efficiency",
+    "question": "Pariksha labs is a mature software testing company. They are TMMi level 5 certified. Their testing processes are well defined. Which ONE of the following statements is likely to be CORRECT about them?",
     "options": [
-      "A. Same set of testing processes are used by them without needing any tweaks because that is the hallmark",
-      "B. of a mature testing company.",
-      "C. The question about the test design techniques to be used is determined based on various factors such as",
-      "D. the domain and expectations of the stakeholders"
+      "A.  The company uses same test strategy for all the projects doing minor changes based on test manager responsible for the project because their test strategy template is very mature and do not need to change",
+      "B. They try to perform 100% automation for every project because automation is a must for efficiency",
+      "C. Same set of testing processes are used by them without needing any tweaks because that is the hallmark of a mature testing company.",
+      "D. The question about the test design techniques to be used is determined based on various factors such asthe domain and expectations of the stakeholders"
     ],
     "answer": "D",
     "explanation": ""
   },
   {
     "question_number": 109,
-    "question": "Shripriya is defining the guidelines for the review process implementation in her company. Which of the following statements is LEAST likely to have been recommended by her? Independent of the size of the work products, planning for the review should be performed Defect reports should be created for every review found Large sized work products should be reviewed in one go because you will have to spend too much time",
+    "question": "Shripriya is defining the guidelines for the review process implementation in her company. Which of the following statements is LEAST likely to have been recommended by her?",
     "options": [
-      "A. if you split it into multiple reviews",
-      "B. Review initiation is the stage when the review team starts the discussion on the review comments",
-      "C. ",
-      "D. "
+      "A. Independent of the size of the work products, planning for the review should be performed",
+      "B. Defect reports should be created for every review found",
+      "C. Large sized work products should be reviewed in one go because you will have to spend too much timeif you split it into multiple reviews",
+      "D. Review initiation is the stage when the review team starts the discussion on the review comments"
     ],
     "answer": "C",
     "explanation": ""
   },
   {
     "question_number": 110,
-    "question": "You are responsible for applying the correct technique for a review of the requirements document for a project to develop a new software application. You identify the reviewers and the required roles, including the meeting leader, who is the requirements document author, and a separate role for a scribe. Additionally, you decide to take a relatively informal approach to the requirements review. The goal of the review is to find defects in the requirements document, such as omissions, Inconsistencies, and duplications. Another goal of the review is to improve the software application's usability and accessibility by considering the various stakeholders' viewpoints. Which of the following statements BEST describes this scenario?",
+    "question": "You are responsible for applying the correct technique for a review of the requirements document for a project to develop a new software application. You identify the reviewers and the required roles, including the meeting leader, who is the requirements document author, and a separate role for a scribe. Additionally, you decide to take a relatively informal approach to the requirements review. The goal of the review is to find defects in the requirements document, such as omissions, Inconsistencies, and duplications. Another goal of the review is to improve the software application's usability and accessibility by considering the various stakeholders' viewpoints. \n\nWhich of the following statements BEST describes this scenario?",
     "options": [
       "A. This scenario is using a pair review type and a perspective-based review technique",
       "B. This scenario is using a walkthrough review type and a checklist-based review technique",
@@ -1316,35 +1322,35 @@
       "D. This scenario is using a pair review type and a checklist-based review technique"
     ],
     "answer": "C",
-    "explanation": "This scenario is using a walkthrough review type and a perspective-based review technique. In a walkthrough, the author of the document leads the meeting and it typically includes a meeting leader and a scribe, as described. This type of review is informal, focuses on discussion, and often involves scenario-based reading of the document to understand different user perspectives (ISTQB Main Web). References: ISTQB® Certified Tester Foundation Level Syllabus v4.0: ISTQB CTFL Syllabus v4.0 PDF"
+    "explanation": "This scenario is using a walkthrough review type and a perspective-based review technique. In a walkthrough, the author of the document leads the meeting and it typically includes a meeting leader and a scribe, as described. This type of review is informal, focuses on discussion, and often involves scenario-based reading of the document to understand different user perspectives (ISTQB Main Web). \n\nReferences: ISTQB® Certified Tester Foundation Level Syllabus v4.0: ISTQB CTFL Syllabus v4.0 PDF"
   },
   {
     "question_number": 111,
-    "question": "A test engineer finds a defect while testing. After the developer has fixed the defect, the test engineer decides to re-run a complete section of the tests. Which of the following is correct? The lest engineer should not re-run the tests, as they have already been run, and results recorded. The test engineer should not re-run the tests, they should be part of the developer tests. The test engineer should re-run the tests, in order to ensure that new defects have not been introduced",
+    "question": "A test engineer finds a defect while testing. After the developer has fixed the defect, the test engineer decides to re-run a complete section of the tests. Which of the following is correct?",
     "options": [
-      "A. by the fix.",
-      "B. The test engineer should re-run the tests, because the defect shows that the test cases need to be updated.",
-      "C. ",
-      "D. "
+      "A. The lest engineer should not re-run the tests, as they have already been run, and results recorded.",
+      "B. The test engineer should not re-run the tests, they should be part of the developer tests.",
+      "C. The test engineer should re-run the tests, in order to ensure that new defects have not been introduced by the fix.",
+      "D. The test engineer should re-run the tests, because the defect shows that the test cases need to be updated."
     ],
     "answer": "C",
-    "explanation": "The test engineer should re-run the tests, in order to ensure that new defects have not been introduced by the fix. This is also known as regression testing, which is a type of testing that verifies that previously tested software still performs correctly after a change. Regression testing helps to detect any side effects or unintended consequences of a fix or a modification. The other options are incorrect reasons for re-running the tests. The test engineer should not re-run the tests, as they have already been run, and results recorded, because this ignores the possibility of new defects caused by the fix. The test engineer should not re-run the tests, they should be part of the developer tests, because this assumes that developer tests are sufficient and reliable, which may not be true. The test engineer should not re-run the tests, because the defect shows that the test cases need to be updated, because this does not address the impact of the fix on other test cases or functionalities. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 41."
+    "explanation": "The test engineer should re-run the tests, in order to ensure that new defects have not been introduced by the fix. This is also known as regression testing, which is a type of testing that verifies that previously tested software still performs correctly after a change. Regression testing helps to detect any side effects or unintended consequences of a fix or a modification. The other options are incorrect reasons for re-running the tests. The test engineer should not re-run the tests, as they have already been run, and results recorded, because this ignores the possibility of new defects caused by the fix. The test engineer should not re-run the tests, they should be part of the developer tests, because this assumes that developer tests are sufficient and reliable, which may not be true. The test engineer should not re-run the tests, because the defect shows that the test cases need to be updated, because this does not address the impact of the fix on other test cases or functionalities. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 41."
   },
   {
     "question_number": 112,
-    "question": "Which of the following statements is an example of testing contributing to higher quality? A test leader writes a test summary report A project manager asks to a test leader to estimate the test effort A tester installs a test ten in the lest environment A tester finds a bug which is resolved prior to release The question is about identifying an example of testing contributing to higher quality. Quality is the degree to which a component, system or process meets specified requirements and/or user/customer needs and expectations1. Testing is the process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects2. Therefore, testing contributes to higher quality by verifying and validating that the software products and related work products meet the specified requirements, are fit for purpose and have no defects, or at least have a reduced number of defects. Testing also provides information about the quality of the software products and related work products to the stakeholders, who can make informed decisions based on the test results3. Out of the four given statements, only option D is an example of testing contributing to higher quality, as it shows that testing has detected a defect (a flaw in a component or system that can cause the component or system to fail to perform its required function4) and that the defect has been resolved (fixed and confirmed) prior to release (delivery of the software product to the customer or end user). This means that testing has prevented a potential failure (an event in which a component or system does not perform a required function within specified limits) from occurring in the operational environment, and thus has improved the quality of the software product. Option A is not an example of testing contributing to higher quality, as it is a reporting activity that summarizes the test results and evaluates the test objectives, but does not directly affect the quality of the software product or related work products. A test summary report is a document that records and communicates the outcomes of testing activities, including test completion criteria, test results, incident reports, test summary and evaluation, and lessons learned. Option B is not an example of testing contributing to higher quality, as it is a planning activity that estimates the resources and time needed for testing activities, but does not directly affect the quality of the software product or related work products. A test effort estimate is an approximation of the amount of work and/or the duration of time required to perform testing activities. Option C is not an example of testing contributing to higher quality, as it is a preparation activity that sets up the test environment (an environment containing hardware, instrumentation, simulators, software tools, and other support elements needed to conduct a test), but does not directly affect the quality of the software product or related work products. A test environment installation is a process of installing and configuring the test environment according to the test environment specification. : 1: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 10 2: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 11 3: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 12 4: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 13 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 13 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 77 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 78 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 79 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 80 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 81 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 82 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 83 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 84 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 85 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 86 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 87 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 88 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 89 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 90 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 91 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 92 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 93 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 94 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 95 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 96 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 97 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 98 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 99 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 100 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 101 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 102 : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 103",
+    "question": "Which of the following statements is an example of testing contributing to higher quality?",
     "options": [
-      "A. : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 104",
-      "B. : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 105",
-      "C. : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 106",
-      "D. : ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 107"
+      "A. A test leader writes a test summary report",
+      "B. A project manager asks to a test leader to estimate the test effort",
+      "C. A tester installs a test ten in the lest environment",
+      "D. A tester finds a bug which is resolved prior to release"
     ],
     "answer": "D",
-    "explanation": ""
+    "explanation": "The question is about identifying an example of testing contributing to higher quality. Quality is the degree to which a component, system or process meets specified requirements and/or user/customer needs and expectations1. Testing is the process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects2. \n\nTherefore, testing contributes to higher quality by verifying and validating that the software products and related work products meet the specified requirements, are fit for purpose and have no defects, or at least have a reduced number of defects. Testing also provides information about the quality of the software products and related work products to the stakeholders, who can make informed decisions based on the test results3. \n\nOut of the four given statements, only option D is an example of testing contributing to higher quality, as it shows that testing has detected a defect (a flaw in a component or system that can cause the component or system to fail to perform its required function4) and that the defect has been resolved (fixed and confirmed) prior to release (delivery of the software product to the customer or end user). This means that testing has prevented a potential failure (an event in which a component or system does not perform a required function within specified limits) from occurring in the operational environment, and thus has improved the quality of the software product. \n\nOption A is not an example of testing contributing to higher quality, as it is a reporting activity that summarizes the test results and evaluates the test objectives, but does not directly affect the quality of the software product or related work products. A test summary report is a document that records and communicates the outcomes of testing activities, including test completion criteria, test results, incident reports, test summary and evaluation, and lessons learned. Option B is not an example of testing contributing to higher quality, as it is a planning activity that estimates the resources and time needed for testing activities, but does not directly affect the quality of the software product or related work products. A test effort estimate is an approximation of the amount of work and/or the duration of time required to perform testing activities. \n\nOption C is not an example of testing contributing to higher quality, as it is a preparation activity that sets up the test environment (an environment containing hardware, instrumentation, simulators, software tools, and other support elements needed to conduct a test), but does not directly affect the quality of the software product or related work products. A test environment installation is a process of installing and configuring the test environment according to the test environment specification. \n\n: \n1: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 10 \n2: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 11 \n3: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 12 \n4: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 13 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 13 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 77 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 78 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 79 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 80 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 81 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 82 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 83 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 84 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 85 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 86 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 87 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 88 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 89 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 90 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 91 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 92 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 93 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 94 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 95 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 96 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 97 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 98 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 99 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 100 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 101 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 102 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 103 \n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 104\n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 105\n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 106\n: ISTQB Certified Tester Foundation Level Syllabus 2018, Version 4.0, p. 107"
   },
   {
     "question_number": 113,
-    "question": "Given some statements about independence of testing i. Independence is a replacement for familiarity with the code ii. Independence helps remove the biases produced because of own work iii. Similar kind of failures can be detected by anyone iv Assumptions by different people are different revealing weaknesses Which of the following CORRECTLY represents the benefits?",
+    "question": "Given some statements about independence of testing \ni. Independence is a replacement for familiarity with the code \nii. Independence helps remove the biases produced because of own work \niii. Similar kind of failures can be detected by anyone \niv Assumptions by different people are different revealing weaknesses \nWhich of the following CORRECTLY represents the benefits?",
     "options": [
       "A. ii and iv",
       "B. iii and iv",
@@ -1364,19 +1370,19 @@
       "D. Specific modules do not adequately meet their intended functions according to the user"
     ],
     "answer": "C",
-    "explanation": "A project risk relates to potential issues that could affect the overall success of the project. Among the options provided, the risk that \"Team members' skills may not be sufficient for the assigned work\" is clearly a project risk because it pertains to the potential failure of the project due to inadequate skillsets among the team. This risk affects the entire project's ability to meet its objectives. References: ISTQB Certified Tester Foundation Level Syllabus v4.0, Section 1.4.2."
+    "explanation": "A project risk relates to potential issues that could affect the overall success of the project. Among the options provided, the risk that \"Team members' skills may not be sufficient for the assigned work\" is clearly a project risk because it pertains to the potential failure of the project due to inadequate skillsets among the team. This risk affects the entire project's ability to meet its objectives. \n\nReferences: ISTQB Certified Tester Foundation Level Syllabus v4.0, Section 1.4.2."
   },
   {
     "question_number": 115,
-    "question": "Which of the following is an example of black-box dynamic testing? Functional Testing Code inspection",
+    "question": "Which of the following is an example of black-box dynamic testing?",
     "options": [
-      "A. ",
-      "B. ",
+      "A. Functional Testing",
+      "B. Code inspection",
       "C. Checking memory leaks for a program by executing it",
       "D. Coverage analysis"
     ],
     "answer": "A",
-    "explanation": "Functional testing is an example of black-box dynamic testing. Black-box testing (also known as specification-based testing) is a type of testing that does not consider the internal structure or implementation of the system under test, but rather its external behavior or functionality. Dynamic testing is a type of testing that involves executing the system under test with various inputs and observing its outputs. Functional testing is a type of black-box dynamic testing that verifies that the system under test performs its intended functions according to its requirements or specifications. Functional testing can be performed at various levels and scopes depending on the objectives and criteria of testing. The other options are not examples of black-box dynamic testing. Code inspection is an example of white-box static testing. White-box testing (also known as structure-based testing) is a type of testing that considers the internal structure or implementation of the system under test. Static testing is a type of testing that does not involve executing the system under test, but rather analyzing it for defects, errors, or violations of standards. Code inspection is a type of white-box static testing that involves examining the source code of the system under test for quality, readability, maintainability, etc. Checking memory leaks for a program by executing it is an example of white-box dynamic testing. Memory leaks are defects that occur when a program fails to release memory that it has allocated but no longer needs. Checking memory leaks for a program by executing it requires knowledge and access to the internal structure or implementation of the program, such as memory allocation and deallocation mechanisms, pointers, references, etc. Coverage analysis is an example of white-box static testing. Coverage analysis is a technique that measures how much of the code or structure of the system under test has been exercised by a test suite. Coverage analysis requires knowledge and access to the internal structure or implementation of the system under test, such as statements, branches, paths, conditions, etc. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 7."
+    "explanation": "Functional testing is an example of black-box dynamic testing. Black-box testing (also known as specification-based testing) is a type of testing that does not consider the internal structure or implementation of the system under test, but rather its external behavior or functionality. Dynamic testing is a type of testing that involves executing the system under test with various inputs and observing its outputs. Functional testing is a type of black-box dynamic testing that verifies that the system under test performs its intended functions according to its requirements or specifications. Functional testing can be performed at various levels and scopes depending on the objectives and criteria of testing. The other options are not examples of black-box dynamic testing. Code inspection is an example of white-box static testing. White-box testing (also known as structure-based testing) is a type of testing that considers the internal structure or implementation of the system under test. Static testing is a type of testing that does not involve executing the system under test, but rather analyzing it for defects, errors, or violations of standards. Code inspection is a type of white-box static testing that involves examining the source code of the system under test for quality, readability, maintainability, etc. Checking memory leaks for a program by executing it is an example of white-box dynamic testing. Memory leaks are defects that occur when a program fails to release memory that it has allocated but no longer needs. Checking memory leaks for a program by executing it requires knowledge and access to the internal structure or implementation of the program, such as memory allocation and deallocation mechanisms, pointers, references, etc. Coverage analysis is an example of white-box static testing. Coverage analysis is a technique that measures how much of the code or structure of the system under test has been exercised by a test suite. Coverage analysis requires knowledge and access to the internal structure or implementation of the system under test, such as statements, branches, paths, conditions, etc. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 7."
   },
   {
     "question_number": 116,
@@ -1392,15 +1398,15 @@
   },
   {
     "question_number": 117,
-    "question": "Which of the following statements about branch coverage is true? The minimum number of test cases needed to achieve full branch coverage, is usually lower than that needed to achieve full statement coverage If full branch coverage has been achieved, then all unconditional branches within the code have surely been exercised",
+    "question": "Which of the following statements about branch coverage is true?",
     "options": [
-      "A. If full branch coverage has been achieved, then all combinations of conditions in a decision table have",
-      "B. surely been exercised",
-      "C. Exercising at least one of the decision outcomes for all decisions within the code, ensures achieving full",
-      "D. branch coverage"
+      "A. The minimum number of test cases needed to achieve full branch coverage, is usually lower than that needed to achieve full statement coverage",
+      "B. If full branch coverage has been achieved, then all unconditional branches within the code have surely been exercised",
+      "C. If full branch coverage has been achieved, then all combinations of conditions in a decision table have surely been exercised",
+      "D. Exercising at least one of the decision outcomes for all decisions within the code, ensures achieving fullbranch coverage"
     ],
     "answer": "D",
-    "explanation": "Exercising at least one of the decision outcomes for all decisions within the code, ensures achieving full branch coverage, which is a test coverage criterion that requires that all branches in the control flow of the code are executed at least once by the test cases. A branch is a basic block of code that has a single entry point and a single exit point, and a decision is a point in the code where the control flow can take more than one direction, such as an if-then-else statement, a switch-case statement, a loop statement, etc. The decision outcomes are the possible paths that can be taken from a decision, such as the then branch or the else branch, the case branch or the default branch, the loop body or the loop exit, etc. The other statements are false, because: The minimum number of test cases needed to achieve full branch coverage, is usually higher than that needed to achieve full statement coverage, which is a test coverage criterion that requires that all executable statements in the code are executed at least once by the test cases. This is because branch coverage is a stronger criterion than statement coverage, as it implies statement coverage, but not vice versa. For example, a single test case can achieve full statement coverage for an if-then-else statement, but two test cases are needed to achieve full branch coverage, as both the then branch and the else branch need to be exercised. If full branch coverage has been achieved, then all unconditional branches within the code have not necessarily been exercised, as unconditional branches are branches that do not depend on any decision, and are always executed, such as a goto statement, a break statement, a return statement, etc. Unconditional branches are not part of the branch coverage criterion, as they do not represent different paths in the control flow of the code. However, they are part of the statement coverage criterion, as they are executable statements in the code. If full branch coverage has been achieved, then all combinations of conditions in a decision table have not necessarily been exercised, as a decision table is a test design technique that represents the logical relationships between multiple conditions and their corresponding actions, in a tabular format. A decision table can have more combinations of conditions than the number of decision outcomes in the code, as each condition can have two or more possible values, such as true or false, yes or no, etc. For example, a decision table with four conditions can have 16 combinations of conditions, but the corresponding code may have only two decision outcomes, such as pass or fail. To exercise all combinations of conditions in a decision table, a stronger test coverage criterion is needed, such as B. D. B. condition combination coverage, which requires that all possible combinations of condition outcomes in the code are executed at least once by the test cases. : ISTQB Certified Tester Foundation References Level (CTFL) v4.0 sources and documents: ISTQB® Certified Tester Foundation Level Syllabus v4.0, Chapter 2.3.1, Test Coverage Criteria Based on the Structure of the Software ISTQB® Glossary of Testing Terms v4.0, Branch Coverage, Statement Coverage, Branch, Decision, Decision Outcome, Unconditional Branch, Decision Table, Condition Combination Coverage"
+    "explanation": "Exercising at least one of the decision outcomes for all decisions within the code, ensures achieving full branch coverage, which is a test coverage criterion that requires that all branches in the control flow of the code are executed at least once by the test cases. A branch is a basic block of code that has a single entry point and a single exit point, and a decision is a point in the code where the control flow can take more than one direction, such as an if-then-else statement, a switch-case statement, a loop statement, etc. The decision outcomes are the possible paths that can be taken from a decision, such as the then branch or the else branch, the case branch or the default branch, the loop body or the loop exit, etc. The other statements are false, because: \n- The minimum number of test cases needed to achieve full branch coverage, is usually higher than that needed to achieve full statement coverage, which is a test coverage criterion that requires that all executable statements in the code are executed at least once by the test cases. This is because branch coverage is a stronger criterion than statement coverage, as it implies statement coverage, but not vice versa. For example, a single test case can achieve full statement coverage for an if-then-else statement, but two test cases are needed to achieve full branch coverage, as both the then branch and the else branch need to be exercised. \n- If full branch coverage has been achieved, then all unconditional branches within the code have not necessarily been exercised, as unconditional branches are branches that do not depend on any decision, and are always executed, such as a goto statement, a break statement, a return statement, etc. Unconditional branches are not part of the branch coverage criterion, as they do not represent different paths in the control flow of the code. However, they are part of the statement coverage criterion, as they are executable statements in the code. \n- If full branch coverage has been achieved, then all combinations of conditions in a decision table have not necessarily been exercised, as a decision table is a test design technique that represents the logical relationships between multiple conditions and their corresponding actions, in a tabular format. A decision table can have more combinations of conditions than the number of decision outcomes in the code, as each condition can have two or more possible values, such as true or false, yes or no, etc. For example, a decision table with four conditions can have 16 combinations of conditions, but the corresponding code may have only two decision outcomes, such as pass or fail. To exercise all combinations of conditions in a decision table, a stronger test coverage criterion is needed, such as B. D. B. condition combination coverage, which requires that all possible combinations of condition outcomes in the code are executed at least once by the test cases. \n\nReferences: ISTQB Certified Tester Foundation Level (CTFL) v4.0 sources and documents: \nISTQB® Certified Tester Foundation Level Syllabus v4.0, Chapter 2.3.1, Test Coverage Criteria Based on the Structure of the Software \nISTQB® Glossary of Testing Terms v4.0, Branch Coverage, Statement Coverage, Branch, Decision, Decision Outcome, Unconditional Branch, Decision Table, Condition Combination Coverage"
   },
   {
     "question_number": 118,
@@ -1412,14 +1418,14 @@
       "D. the tool will be owned and maintained by developers and replace testers."
     ],
     "answer": "A",
-    "explanation": "One possible risk of introducing test automation is that the selected tool may not be fit-for-purpose. This means that the tool might not meet the specific needs and requirements of the project, leading to inefficiencies and possibly failing to provide the expected benefits. It is crucial to evaluate and select the appropriate tool based on the project's context and objectives. The ISTQB CTFL syllabus highlights the importance of careful tool evaluation and selection to ensure it aligns with the testing goals and the development environment. References: ISTQB CTFL Syllabus, Section 6.2, \"Potential Benefits and Risks of Test Automation.\""
+    "explanation": "One possible risk of introducing test automation is that the selected tool may not be fit-for-purpose. This means that the tool might not meet the specific needs and requirements of the project, leading to inefficiencies and possibly failing to provide the expected benefits. It is crucial to evaluate and select the appropriate tool based on the project's context and objectives. The ISTQB CTFL syllabus highlights the importance of careful tool evaluation and selection to ensure it aligns with the testing goals and the development environment. \n\nReferences: ISTQB CTFL Syllabus, Section 6.2, \"Potential Benefits and Risks of Test Automation.\""
   },
   {
     "question_number": 119,
-    "question": "During which main group of test activity are the following tasks performed? •Checking test results and logs against specified coverage criteria. •Assessing the level of component or system quality based on test results and logs. •Determining whether more tests are needed. Select the correct answer: Test planning. Test analysis.",
+    "question": "During which main group of test activity are the following tasks performed? \n•Checking test results and logs against specified coverage criteria. \n•Assessing the level of component or system quality based on test results and logs. \n•Determining whether more tests are needed. \nSelect the correct answer:",
     "options": [
-      "A. ",
-      "B. ",
+      "A. Test planning.",
+      "B. Test analysis.",
       "C. Test design.",
       "D. Test monitoring and control."
     ],
@@ -1428,7 +1434,7 @@
   },
   {
     "question_number": 120,
-    "question": "As the last stage of a test cycle of an embedded device, you are performing exploratory testing. You observed that some character. (A, X and sent via a serial port to the device do not get registered on the device Z) whereas they should be. You suspect that this could be due to a wrong configuration of the \"bit parity\" parameter. Which of the following items of an incident report would you be UNABLE to write down based on this information?",
+    "question": "As the last stage of a test cycle of an embedded device, you are performing exploratory testing. You observed that some character. (A, X and sent via a serial port to the device do not get registered on the device Z) whereas they should be. You suspect that this could be due to a wrong configuration of the \"bit parity\" parameter. \n\nWhich of the following items of an incident report would you be UNABLE to write down based on this information?",
     "options": [
       "A. Expected result",
       "B. Test case identifier",
@@ -1436,16 +1442,16 @@
       "D. Actual result"
     ],
     "answer": "B",
-    "explanation": "An incident report is a document that records the details of an incident. An incident report typically contains the following items: Identifier: A unique identifier for the incident report Summary: A concise summary of the incident Description: A detailed description of the incident, including the steps to reproduce it, the expected and actual results, and any relevant screenshots or logs Severity: The degree of impact that the incident has on the system Priority: The level of urgency for resolving the incident B. D. B. D. Status: The current state of the incident, such as new, open, resolved, closed, etc. Resolution: The action taken to resolve the incident, such as fix, workaround, reject, etc. Based on the information given in the question, the tester would be able to write down all of these items except for the test case identifier. A test case identifier is a unique identifier for a test case that is used to link it to other test artifacts, such as test plans, test scripts, test results or incident reports. However, since the tester is performing exploratory testing, there is no predefined test case that can be associated with the incident. Exploratory testing is an approach to testing that emphasizes learning, test design and test execution at the same time. Exploratory testing relies on the tester’s skills, creativity and intuition to explore the software under test and discover defects. Exploratory testing does not use formal test cases or scripts, but rather uses test charters or missions that guide the tester’s actions and objectives. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, Chapter 3, page 32-33; Chapter 5, page 47-48."
+    "explanation": "An incident report is a document that records the details of an incident. An incident report typically contains the following items: \n-Identifier: A unique identifier for the incident report \n- Summary: A concise summary of the incident \n- Description: A detailed description of the incident, including the steps to reproduce it, the expected and actual results, and any relevant screenshots or logs \n- Severity: The degree of impact that the incident has on the system \n- Priority: The level of urgency for resolving the incident \n- Status: The current state of the incident, such as new, open, resolved, closed, etc. \n- Resolution: The action taken to resolve the incident, such as fix, workaround, reject, etc. Based on the information given in the question, the tester would be able to write down all of these items except for the test case identifier. A test case identifier is a unique identifier for a test case that is used to link it to other test artifacts, such as test plans, test scripts, test results or incident reports. However, since the tester is performing exploratory testing, there is no predefined test case that can be associated with the incident. Exploratory testing is an approach to testing that emphasizes learning, test design and test execution at the same time. Exploratory testing relies on the tester’s skills, creativity and intuition to explore the software under test and discover defects. Exploratory testing does not use formal test cases or scripts, but rather uses test charters or missions that guide the tester’s actions and objectives. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, Chapter 3, page 32-33; Chapter 5, page 47-48."
   },
   {
     "question_number": 121,
-    "question": "Which of the following statements about static testing is true? Static testing is NOT suitable for finding coding defects. For this, dynamic testing is necessary.",
+    "question": "Which of the following statements about static testing is true?",
     "options": [
-      "A. Static testing should be done instead of dynamic testing, as both find the same defects.",
-      "B. Static tests are NOT suitable to evaluate the quality of work results.",
-      "C. It makes sense to perform static testing before dynamic testing, because defects can be found earlier or",
-      "D. at lower cost."
+      "A. Static testing is NOT suitable for finding coding defects. For this, dynamic testing is necessary.",
+      "B. Static testing should be done instead of dynamic testing, as both find the same defects.",
+      "C. Static tests are NOT suitable to evaluate the quality of work results.",
+      "D. It makes sense to perform static testing before dynamic testing, because defects can be found earlier orat lower cost."
     ],
     "answer": "D",
     "explanation": ""
@@ -1460,23 +1466,23 @@
       "D. Failure"
     ],
     "answer": "D",
-    "explanation": "A failure is an event in which a component or system does not perform a required function within specified limits. A failure is observable by the software users or other stakeholders. A failure is caused by one or more B. D. B. D. defects in the software. In this case, the software not being able to meet the desired response time is an example of a failure, as it deviates from the stated requirement and affects the user experience. It is not a defect, which is a flaw in the software that causes the failure. It is not an error, which is a human action that produces an incorrect result. It is not a non-defect, as it clearly violates a specified requirement. Verified References: [A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer], Chapter 1, page 4."
+    "explanation": "A failure is an event in which a component or system does not perform a required function within specified limits. A failure is observable by the software users or other stakeholders. A failure is caused by one or more B. D. B. D. defects in the software. In this case, the software not being able to meet the desired response time is an example of a failure, as it deviates from the stated requirement and affects the user experience. It is not a defect, which is a flaw in the software that causes the failure. It is not an error, which is a human action that produces an incorrect result. It is not a non-defect, as it clearly violates a specified requirement. \n\nVerified References: [A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer], Chapter 1, page 4."
   },
   {
     "question_number": 123,
-    "question": "Which of the following statements does NOT describe good testing practice, regardless of the SDLC chosen? All development activities are subject to quality control. To avoid redundancy, different test levels have specific test objectives.",
+    "question": "Which of the following statements does NOT describe good testing practice, regardless of the SDLC chosen?",
     "options": [
-      "A. To adhere to the principle of early testing, test analysis for a specific test level takes place during the",
-      "B. corresponding phase of the SDLC.",
-      "C. Testers are involved in the review of work results as soon as the documents have been approved by the",
-      "D. stakeholders."
+      "A. All development activities are subject to quality control.",
+      "B. To avoid redundancy, different test levels have specific test objectives.",
+      "C. To adhere to the principle of early testing, test analysis for a specific test level takes place during the corresponding phase of the SDLC.",
+      "D. Testers are involved in the review of work results as soon as the documents have been approved by the stakeholders."
     ],
     "answer": "D",
     "explanation": ""
   },
   {
     "question_number": 124,
-    "question": "Which of the following statements about test reports are TRUE? I Test reports shall be approved by the test team. II. Test reports shall give stakeholders information as basis for decisions. Ill Test reports shall summarize what happened through a period of testing. IV. Test reports shall be approved by the development team, the test team and the customer V. Test reports shall include information about remaining risks.",
+    "question": "Which of the following statements about test reports are TRUE? \nI Test reports shall be approved by the test team. \nII. Test reports shall give stakeholders information as basis for decisions. \nIll Test reports shall summarize what happened through a period of testing. \nIV. Test reports shall be approved by the development team, the test team and the customer \nV. Test reports shall include information about remaining risks.",
     "options": [
       "A. II, III, V",
       "B. I, II, IV",
@@ -1484,7 +1490,7 @@
       "D. II, III, IV"
     ],
     "answer": "A",
-    "explanation": "B. D. Statements II, III and V are true about test reports. Test reports are documents that provide information on the results and status of testing activities for a given period or phase. Test reports should give stakeholders information as basis for decisions, such as whether to release the software product, whether to continue testing, whether to change the scope or priorities of testing, etc. Test reports should summarize what happened through a period of testing, such as what test cases were executed, what defects were found, what risks were identified, what issues were encountered, what achievements were made, etc. Test reports should include information about remaining risks, such as what defects are still open, what test cases are still pending, what functionalities are still untested, what uncertainties are still unresolved, etc. Statements I and IV are not true about test reports. Test reports do not need to be approved by the test team, the development team, or the customer, unless it is specified by the test policy or the test plan. Test reports only need to be reviewed and verified by the test leader or the test manager before being distributed to the intended recipients. Verified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 141."
+    "explanation": "B. D. Statements II, III and V are true about test reports. Test reports are documents that provide information on the results and status of testing activities for a given period or phase. Test reports should give stakeholders information as basis for decisions, such as whether to release the software product, whether to continue testing, whether to change the scope or priorities of testing, etc. Test reports should summarize what happened through a period of testing, such as what test cases were executed, what defects were found, what risks were identified, what issues were encountered, what achievements were made, etc. Test reports should include information about remaining risks, such as what defects are still open, what test cases are still pending, what functionalities are still untested, what uncertainties are still unresolved, etc. Statements I and IV are not true about test reports. Test reports do not need to be approved by the test team, the development team, or the customer, unless it is specified by the test policy or the test plan. Test reports only need to be reviewed and verified by the test leader or the test manager before being distributed to the intended recipients. \n\nVerified References: A Study Guide to the ISTQB® Foundation Level 2018 Syllabus - Springer, page 141."
   },
   {
     "question_number": 125,
@@ -1496,11 +1502,11 @@
       "D. A peer reviews find failures while static analysis finds defects."
     ],
     "answer": "B",
-    "explanation": "The key difference between a peer review of code and static analysis of code using a tool lies in their approaches and scope. A peer review is a manual inspection of the code by peers or colleagues, focusing not only on the technical aspects of the code but also on other elements such as design, compliance with standards, and maintainability. Peer reviews can identify defects, suggest improvements, and ensure that the code adheres to best practices and team standards. On the other hand, static analysis is an automated process performed by tools designed to analyze the code without executing it. These tools can detect potential issues such as syntax errors, vulnerabilities, and code smells based on predefined rules and patterns. While static analysis is technically focused, it lacks the broader perspective that human reviewers can provide, such as evaluating the code's maintainability or adherence to project-specific standards. Therefore, static analysis targets the code technically, whereas peer review encompasses a wider range of aspects, making option B the correct answer."
+    "explanation": "The key difference between a peer review of code and static analysis of code using a tool lies in their approaches and scope. A peer review is a manual inspection of the code by peers or colleagues, focusing not only on the technical aspects of the code but also on other elements such as design, compliance with standards, and maintainability. Peer reviews can identify defects, suggest improvements, and ensure that the code adheres to best practices and team standards. \n\nOn the other hand, static analysis is an automated process performed by tools designed to analyze the code without executing it. These tools can detect potential issues such as syntax errors, vulnerabilities, and code smells based on predefined rules and patterns. While static analysis is technically focused, it lacks the broader perspective that human reviewers can provide, such as evaluating the code's maintainability or adherence to project-specific standards. Therefore, static analysis targets the code technically, whereas peer review encompasses a wider range of aspects, making option B the correct answer."
   },
   {
     "question_number": 126,
-    "question": "Which of the following statements are true? 1. Early and frequent feedback helps to avoid requirements misunderstanding. 2. Early feedback allows teams to do more with less. 3. Early feedback allows the team to focus on the most Important features. 4. Early and frequent feedback clarifies customer feedback by applying static testing techniques Select the correct answer:",
+    "question": "Which of the following statements are true? \n1. Early and frequent feedback helps to avoid requirements misunderstanding. \n2. Early feedback allows teams to do more with less. \n3. Early feedback allows the team to focus on the most Important features. \n4. Early and frequent feedback clarifies customer feedback by applying static testing techniques \nSelect the correct answer:",
     "options": [
       "A. 3",
       "B. 2",
@@ -1508,19 +1514,19 @@
       "D. 4"
     ],
     "answer": "C",
-    "explanation": "The statement \"Early and frequent feedback helps to avoid requirements misunderstanding\" is true. Early feedback from stakeholders, through reviews and other static testing techniques, helps clarify requirements and ensures that any misunderstandings are addressed promptly. This practice aligns with Agile principles and contributes to developing software that meets user needs more accurately. References: ISTQB CTFL Syllabus, Section 2.1.1, \"The Influence of Development Models on Testing\" and Section 3.2.1, \"The Advantages of Early Feedback.\""
+    "explanation": "The statement \"Early and frequent feedback helps to avoid requirements misunderstanding\" is true. Early feedback from stakeholders, through reviews and other static testing techniques, helps clarify requirements and ensures that any misunderstandings are addressed promptly. This practice aligns with Agile principles and contributes to developing software that meets user needs more accurately. \n\nReferences: ISTQB CTFL Syllabus, Section 2.1.1, \"The Influence of Development Models on Testing\" and Section 3.2.1, \"The Advantages of Early Feedback.\""
   },
   {
     "question_number": 127,
-    "question": "Which ONE of the following options MOST ACCURATELY describes ?statement testing In statement testing, the coverage items are control flow transfers between branches. The aim is to design test cases to exercise branches in the code until an acceptable level of coverage is achieved, expressed as a percentage. In statement testing, the coverage items are decisions and statements. The aim is to design test cases that exercise statements in the code until an acceptable level of coverage is achieved, expressed as a percentage. In statement testing, the coverage items are branches, and the aim is to design test cases to exercise branches in the code until an acceptable level of coverage is achieved, expressed as a percentage. In statement testing, the coverage items are executable statements. The aim is to design test cases that",
+    "question": "Which ONE of the following options MOST ACCURATELY describes statement testing?",
     "options": [
-      "A. exercise statements in the code until an acceptable level of coverage is achieved, expressed as a",
-      "B. percentage.",
-      "C. ",
-      "D. "
+      "A. In statement testing, the coverage items are control flow transfers between branches. The aim is to design test cases to exercise branches in the code until an acceptable level of coverage is achieved, expressed as a percentage.",
+      "B. In statement testing, the coverage items are decisions and statements. The aim is to design test cases that exercise statements in the code until an acceptable level of coverage is achieved, expressed as a percentage.",
+      "C. In statement testing, the coverage items are branches, and the aim is to design test cases to exercise branches in the code until an acceptable level of coverage is achieved, expressed as a percentage.",
+      "D. In statement testing, the coverage items are executable statements. The aim is to design test cases that exercise statements in the code until an acceptable level of coverage is achieved, expressed as a percentage."
     ],
     "answer": "D",
-    "explanation": "Comprehensive and Detailed In-Depth Explanation: Statement testing aims to execute in the source code at least once.every executable statement (D) is correct as statement testing ensures .maximum statement execution (A) describes branch testing, which focuses on flow transfers. (B) and (C) incorrectly mix decision testing and branch testing concepts. Reference: ISTQB CTFL v4.0 Syllabus, Section 4.3.1 – Statement Testing"
+    "explanation": "Comprehensive and Detailed In-Depth Explanation: Statement testing aims to execute every executable statement in the source code at least once. \n- (D) is correct as statement testing ensures .maximum statement execution \n- (A) describes branch testing, which focuses on flow transfers. \n- (B) and (C) incorrectly mix decision testing and branch testing concepts. \n\nReference: ISTQB CTFL v4.0 Syllabus, Section 4.3.1 – Statement Testing"
   },
   {
     "question_number": 128,
@@ -1536,7 +1542,7 @@
   },
   {
     "question_number": 129,
-    "question": "Consider the following statements (I to V) about software testing: I. Can be applied to non-executable work products. II. Can be used to measure performance efficiency. III. Can lead to the detection of defects. IV. Can find defects directly. V. Can identify unexpected behaviors caused by potential defects. Which ONE of the following options is the list that characterizes static tests the BEST?",
+    "question": "Consider the following statements (I to V) about software testing: \nI. Can be applied to non-executable work products. \nII. Can be used to measure performance efficiency.\nIII. Can lead to the detection of defects. \nIV. Can find defects directly. \nV. Can identify unexpected behaviors caused by potential defects. \nWhich ONE of the following options is the list that characterizes static tests the BEST?",
     "options": [
       "A. Statements I, III, and IV",
       "B. Statements II, IV, and V",
@@ -1544,15 +1550,15 @@
       "D. Statements II, III, and V"
     ],
     "answer": "A",
-    "explanation": "Comprehensive and Detailed In-Depth Explanation: Static testing applies to (I), such as requirements or code reviews. It also (A) non-executable work products and without executing the software. Options leads to defect detection (III)finds defects directly (IV) B, C, incorrectly associate static testing with performance measurement (II) or dynamic testing aspects (V).and D Reference: ISTQB CTFL v4.0 Syllabus, Section 3.1.2 – The Value of Static Testing"
+    "explanation": "Comprehensive and Detailed In-Depth Explanation: \nStatic testing (A) applies to non-executable work products (I), such as requirements or code reviews. It also leads to defect detection (III) and finds defects directly (IV) without executing the software. Options B, C, and D incorrectly associate static testing with performance measurement (II) or dynamic testing aspects (V). \n\nReference: ISTQB CTFL v4.0 Syllabus, Section 3.1.2 – The Value of Static Testing"
   },
   {
     "question_number": 130,
-    "question": "Which of the following options is a success factor for formal reviews (e.g. inspections)? Provide participants an adequate amount of time for preparation for the review.",
+    "question": "Which of the following options is a success factor for formal reviews (e.g. inspections)?",
     "options": [
-      "A. Evaluate participants on how they spend their time and attention to detail.",
-      "B. Use only one type of review so that participants do not have to get used to a different type of review",
-      "C. process as often.",
+      "A. Provide participants an adequate amount of time for preparation for the review.",
+      "B. Evaluate participants on how they spend their time and attention to detail.",
+      "C. Use only one type of review so that participants do not have to get used to a different type of review process as often.",
       "D. Conduct the review in a few large sections, each of which participants are to review as a whole."
     ],
     "answer": "A",
@@ -1560,19 +1566,19 @@
   },
   {
     "question_number": 131,
-    "question": "Select the roles required in a formal review: Author, Management, Facilitator, Review Leader, Reviewers, Scribe Author, Tester. Facilitator. Review Leader. Reviewers. Scribe",
+    "question": "Select the roles required in a formal review:",
     "options": [
-      "A. ",
-      "B. ",
+      "A. Author, Management, Facilitator, Review Leader, Reviewers, Scribe",
+      "B. Author, Tester. Facilitator. Review Leader. Reviewers. Scribe",
       "C. Author, Business analyst. Facilitator, Review Leader. Reviewers. Scribe",
       "D. Author. Developer, Facilitator. Review Leader. Reviewers. Scribe"
     ],
     "answer": "A",
-    "explanation": "In a formal review, the roles involved typically include the author, management, facilitator (also known as moderator), review leader, reviewers, and scribe. Each role has specific responsibilities to ensure the effectiveness and efficiency of the review process: The creates and refines the work product being reviewed.author Management allocates resources and supports the review process. The manages the review meeting, ensuring it proceeds smoothly.facilitator The plans the review and ensures it meets its objectives.review leader Reviewers examine the work product to identify defects. The records issues raised during the review meeting.scribe"
+    "explanation": "In a formal review, the roles involved typically include the author, management, facilitator (also known as moderator), review leader, reviewers, and scribe. Each role has specific responsibilities to ensure the effectiveness and efficiency of the review process: \n*The author creates and refines the work product being reviewed \n*Management allocates resources and supports the review process. \n*The facilitator manages the review meeting, ensuring it proceeds smoothly \n*The review leader plans the review and ensures it meets its objectives \n*Reviewers examine the work product to identify defects. \n*The scribe records issues raised during the review meeting"
   },
   {
     "question_number": 132,
-    "question": "For the following pseudo-code determine number of tests required for 100% statement coverage IF Gender = Boy If Age > 3 AND Age < 5 Shoe Size = 1 ELSE IF Age >=5 AND Age < 7 Shoe Size = 2 ENDIF ELSE IF Age > 3 AND Age < 5 Shoe Size = 0 ELSE IF Age >=5 AND Age < 7 Shoe Size = 1 ENDIF ENDIF",
+    "question": "For the following pseudo-code determine number of tests required for 100% statement coverage\nIF Gender = Boy\nIf Age > 3 AND Age < 5\nShoe Size = 1\nELSE IF Age >=5 AND Age < 7\nShoe Size = 2\nENDIF\nELSE\nIF Age > 3 AND Age < 5\nShoe Size = 0\nELSE IF Age >=5 AND Age < 7\nShoe Size = 1\nISTQB - ISTQB-CTFLPractice Test\n91 of 273Pass Your Certification With Marks4sure Guarantee\nA.\nB.\nC.\nD.\nENDIF\nENDIF",
     "options": [
       "A. 6",
       "B. 4",
@@ -1580,11 +1586,12 @@
       "D. 6"
     ],
     "answer": "B",
-    "explanation": "To achieve 100% statement coverage, we need to design test cases that ensure every statement in the given pseudo-code is executed at least once. Analyzing the pseudo-code, we notice that there are conditions based on two variables: Gender and Age. To cover all statements, we need to consider the paths that lead to each assignment of the Shoe Size variable. Gender = Boy, Age <= 3 (Shoe Size assignment is not reached, but the condition is evaluated) Gender = Boy, Age > 3 AND Age < 5 (Shoe Size = 1) Gender = Boy, Age >= 5 AND Age < 7 (Shoe Size = 2) Gender != Boy, Age <= 3 (Again, Shoe Size assignment is not reached, but the condition is evaluated) Gender != Boy, Age > 3 AND Age < 5 (Shoe Size = 0) Gender != Boy, Age >= 5 AND Age < 7 (Shoe Size = 1) However, upon closer inspection, we see that tests 1 and 4 do not contribute to statement coverage as they do not lead to a Shoe Size assignment. Therefore, we only need 4 test cases to achieve 100% statement coverage, making option B the correct answer."
+    "explanation": "To achieve 100% statement coverage, we need to design test cases that ensure every statement in the given pseudo-code is executed at least once. Analyzing the pseudo-code, we notice that there are conditions based on two variables: Gender and Age. To cover all statements, we need to consider the paths that lead to each assignment of the Shoe Size variable. \n*Gender = Boy, Age <= 3 (Shoe Size assignment is not reached, but the condition is evaluated) \n*Gender = Boy, Age > 3 AND Age < 5 (Shoe Size = 1) \n*Gender = Boy, Age >= 5 AND Age < 7 (Shoe Size = 2) \n*Gender != Boy, Age <= 3 (Again, Shoe Size assignment is not reached, but the condition is evaluated) \n*Gender != Boy, Age > 3 AND Age < 5 (Shoe Size = 0) \n*Gender != Boy, Age >= 5 AND Age < 7 (Shoe Size = 1) \nHowever, upon closer inspection, we see that tests 1 and 4 do not contribute to statement coverage as they do not lead to a Shoe Size assignment. Therefore, we only need 4 test cases to achieve 100% statement coverage, making option B the correct answer."
   },
   {
     "question_number": 133,
-    "question": "Scenario 1 “Happy Tomatoes” (used for questions 20-22): An intelligent application for agricultural use incorporates temperature sensors located at different points of an enclosure. The sensors measure and record the temperature at regular intervals and extract the statistical values for these measurements. These values include the average daily temperature. A new variety of tomatoes is currently being grown and the “World Organization for Happy Tomatoes” has established temperature ranges related to vegetative development. When the system establishes that the average temperature is within a specific range, it emits a value that will be used to monitor and control the crop. Using the technique, identify the set of input values that provides the HIGHEST equivalence partitioning coverage.",
+    "question": "Scenario 1 “Happy Tomatoes” (used for questions 20-22): \n\nAn intelligent application for agricultural use incorporates temperature sensors located at different points of an enclosure. The sensors measure and record the temperature at regular intervals and extract the statistical values for these measurements. These values include the average daily temperature. \n\nA new variety of tomatoes is currently being grown and the “World Organization for Happy Tomatoes” has established temperature ranges related to vegetative development. \n\nWhen the system establishes that the average temperature is within a specific range, it emits a value that will be used to monitor and control the crop. \n\nUsing the equivalence partitioning technique, identify the set of input values that provides the HIGHEST coverage.",
+    "attachment": "no133.png",
     "options": [
       "A. {7,10,21,40}",
       "B. {8,10,25,40}",
@@ -1592,11 +1599,11 @@
       "D. {7,10,25,40}"
     ],
     "answer": "C",
-    "explanation": "Comprehensive and Detailed In-Depth Explanation: Equivalence partitioning (EP) divides input values into classes where test cases represent all possible of each partition. The partitions in this scenario are:values #7 (too cold # W) 8-21 (standstill # X) 22-29 (ideal # Y) #30 (too hot # Z) Option by selecting representative values:C ({7,10,25,29})covers all partitions 7 # Too cold (W) 10 # Standstill (X) 25 # Ideal (Y) 29 # Upper boundary of ideal (Y) Other options do not cover all partitions adequately. Reference: ISTQB CTFL v4.0 Syllabus, Section 4.2.1 – Equivalence Partitioning B. D. B. D."
+    "explanation": "Comprehensive and Detailed In-Depth Explanation: \n\nEquivalence partitioning (EP) divides input values into classes where test cases represent all possible values of each partition. The partitions in this scenario are: \n> #7 (too cold # W) \n>8-21 (standstill # X) \n>22-29 (ideal # Y) \n>#30 (too hot # Z) \n\nOption C ({7,10,25,29})covers all partitions by selecting representative values: \n> 7 # Too cold (W) \n>10 # Standstill (X) \n> 25 # Ideal (Y) \n> 29 # Upper boundary of ideal (Y) \nOther options do not cover all partitions adequately. \n\nReference: ISTQB CTFL v4.0 Syllabus, Section 4.2.1 – Equivalence Partitioning B. D. B. D."
   },
   {
     "question_number": 134,
-    "question": "You are testing a room upgrade system for a hotel. The system accepts three differed types of room (increasing order of luxury): Platinum. Silver and Gold Luxury. ONLY a Preferred Guest Card holder s eligible for an upgrade. Below you can find the decision table defining the upgrade eligibility: What is the expected result for each of the following test cases? Customer A: Preference Guest Card holder, holding a Silver room Customer B: Non Preferred Guest Card holder, holding a Platinum room",
+    "question": "You are testing a room upgrade system for a hotel. The system accepts three differed types of room (increasing order of luxury): Platinum. Silver and Gold Luxury. ONLY a Preferred Guest Card holder s eligible for an upgrade. \nBelow you can find the decision table defining the upgrade eligibility: \nWhat is the expected result for each of the following test cases? \nCustomer A: Preference Guest Card holder, holding a Silver room \nCustomer B: Non Preferred Guest Card holder, holding a Platinum room",
     "options": [
       "A. Customer A; doesn't offer any upgrade; Customer B: offers upgrade to Gold luxury room",
       "B. Customer A: doesn't offer any upgrade; Customer B: doesn't offer any upgrade.",
@@ -1608,15 +1615,15 @@
   },
   {
     "question_number": 135,
-    "question": "The following state transition diagram describes the functionality involved in a system using fingerprint and password authentication to log onto a system. How many distinct states of the system are visible in the above diagram? 1 2",
+    "question": "The following state transition diagram describes the functionality involved in a system using fingerprint and password authentication to log onto a system. \n\nHow many distinct states of the system are visible in the above diagram?",
     "options": [
-      "A. 3",
-      "B. 4",
-      "C. ",
-      "D. "
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
     ],
     "answer": "C",
-    "explanation": "The state transition diagram provided shows three distinct states: Waiting for fingerprint Waiting for PIN Valid PIN/ask menu selection Each state represents a different stage in the system's operation, with transitions based on user actions and system responses."
+    "explanation": "The state transition diagram provided shows three distinct states: \n *Waiting for fingerprint \n *Waiting for PIN \n *Valid PIN/ask menu selection \nEach state represents a different stage in the system's operation, with transitions based on user actions and system responses."
   },
   {
     "question_number": 136,
