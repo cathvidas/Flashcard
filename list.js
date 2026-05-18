@@ -24,12 +24,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                         `</ul>`;
                 }
 
+                let attachmentHtml = '';
+                if (item.attachment) {
+                    attachmentHtml = `<div class="q-attachment" style="margin-bottom: 1rem;"><img src="${item.attachment}" alt="Attachment" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;"></div>`;
+                }
+
                 card.innerHTML = `
                     <div class="list-card-header">
                         <div class="q-text" style="margin-bottom: 0;">#${index + 1}: ${item.question}</div>
                         <span class="toggle-icon">▼</span>
                     </div>
                     <div class="list-card-details" style="display: none; margin-top: 1.5rem;">
+                        ${attachmentHtml}
                         ${optionsHtml}
                         <div style="margin-top: 1.5rem; border-top: 1px solid #e2e8f0; padding-top: 1.5rem;">
                             <p style="color: var(--primary); font-weight: 700; margin-bottom: 0.5rem;">Answer: ${item.answer}</p>

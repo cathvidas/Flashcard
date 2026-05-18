@@ -81,6 +81,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Construct Question and Options
             let frontContent = `<div class="q-container"><p class="q-text">${currentCard.question || "Question missing"}</p>`;
+            
+            // Add attachment if exists
+            if (currentCard.attachment) {
+                frontContent += `<div class="q-attachment" style="margin-bottom: 1.5rem;"><img src="${'attachments/' + currentCard.attachment}" alt="Question Diagram" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;"></div>`;
+            }
+
             if (currentCard.options && Array.isArray(currentCard.options)) {
                 frontContent += `<ul class="options-list">`;
                 currentCard.options.forEach((opt, idx) => {
