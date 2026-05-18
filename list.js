@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 let attachmentHtml = '';
                 if (item.attachment) {
-                    attachmentHtml = `<div class="q-attachment" style="margin-bottom: 1rem;"><img src="${item.attachment}" alt="Attachment" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;"></div>`;
+                    attachmentHtml = `<div class="q-attachment" style="margin-bottom: 1rem;"><img src="${'attachments/' + item.attachment}" alt="Attachment" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e2e8f0;"></div>`;
                 }
 
                 card.innerHTML = `
