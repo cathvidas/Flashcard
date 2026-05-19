@@ -136,10 +136,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     // Show answer immediately on main page
                     const currentCard = quizData[currentIndex];
                     mainOptions.forEach(optLi => {
-                        const text = optLi.textContent.trim();
-                        const isCorrect = currentCard.answer.startsWith(text.charAt(0)) || 
-                                         currentCard.answer.includes(text) ||
-                                         text.includes(currentCard.answer);
+                        const isCorrect = String.fromCharCode(65 + parseInt(optLi.dataset.idx)) === currentCard.answer.trim().toUpperCase();
                         if (isCorrect) optLi.classList.add('correct');
                         else if (optLi === li) optLi.classList.add('incorrect');
                         optLi.classList.add('disabled');
@@ -222,13 +219,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         modalOptions.forEach(li => {
             li.classList.add('disabled');
-            const optionText = li.textContent.trim();
             
             // Logical check: Does this option match the answer?
-            // Tries to match "A (Text)" against "A" or the full string
-            const isCorrect = currentCard.answer.startsWith(optionText.charAt(0)) || 
-                             currentCard.answer.includes(optionText) ||
-                             optionText.includes(currentCard.answer);
+            const isCorrect = String.fromCharCode(65 + parseInt(li.dataset.idx)) === currentCard.answer.trim().toUpperCase();
 
             if (isCorrect) {
                 li.classList.add('correct');
