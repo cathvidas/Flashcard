@@ -79,6 +79,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             const currentCard = quizData[currentIndex];
             if (!currentCard) return;
 
+            // Find the full text of the correct answer and strip the identifying prefix
+            let answerText = currentCard.answer || "N/A";
+            if (currentCard.options && Array.isArray(currentCard.options)) {
+                const answerIndex = currentCard.answer.trim().toUpperCase().charCodeAt(0) - 65;
+                if (currentCard.options[answerIndex]) {
+                    answerText = currentCard.options[answerIndex].replace(/^[A-Z][\.\s]\s*/, '').trim();
+                }
+            }
+
             // Construct Question and Options
             let frontContent = `<div class="q-container"><p class="q-text">${currentCard.question || "Question missing"}</p>`;
             
@@ -88,9 +97,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
             if (currentCard.options && Array.isArray(currentCard.options)) {
+                const processedOptions = currentCard.options.map((opt, idx) => ({
+                    text: opt.replace(/^[A-Z][\.\s]\s*/, '').trim(),
+                    letter: String.fromCharCode(65 + idx)
+                }));
+
+                shuffleArray(processedOptions);
+
                 frontContent += `<ul class="options-list">`;
-                currentCard.options.forEach((opt, idx) => {
-                    frontContent += `<li data-idx="${idx}">${opt}</li>`;
+                processedOptions.forEach((optObj) => {
+                    frontContent += `<li data-letter="${optObj.letter}">${optObj.text}</li>`;
                 });
                 frontContent += `</ul>`;
             }
@@ -99,7 +115,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Build Answer content for Quiz Modal (hidden initially)
             let quizAnswerContent = `
                 <div id="quizExplanation" class="hidden quiz-explanation-container">
-                    <p class="quiz-answer-header">Answer: ${currentCard.answer || "N/A"}</p>
+                    <p class="quiz-answer-header">Answer: ${answerText}</p>
                     <div class="a-explanation" style="color: var(--text-main);">${currentCard.explanation || ""}</div>
                 </div>
             `;
@@ -116,7 +132,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Construct Answer and Explanation
             let backContent = `<div class="a-container">`;
-            backContent += `<p class="a-label"><strong>Answer:</strong> ${currentCard.answer || "N/A"}</p>`;
+            backContent += `<p class="a-label"><strong>Answer:</strong> ${answerText}</p>`;
             if (currentCard.explanation) {
                 backContent += `<hr><p class="a-explanation"><br>${currentCard.explanation}</p>`;
             }
@@ -136,7 +152,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     // Show answer immediately on main page
                     const currentCard = quizData[currentIndex];
                     mainOptions.forEach(optLi => {
-                        const isCorrect = String.fromCharCode(65 + parseInt(optLi.dataset.idx)) === currentCard.answer.trim().toUpperCase();
+                        const isCorrect = optLi.dataset.letter === currentCard.answer.trim().toUpperCase();
                         if (isCorrect) optLi.classList.add('correct');
                         else if (optLi === li) optLi.classList.add('incorrect');
                         optLi.classList.add('disabled');
@@ -221,7 +237,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             li.classList.add('disabled');
             
             // Logical check: Does this option match the answer?
-            const isCorrect = String.fromCharCode(65 + parseInt(li.dataset.idx)) === currentCard.answer.trim().toUpperCase();
+            const isCorrect = li.dataset.letter === currentCard.answer.trim().toUpperCase();
 
             if (isCorrect) {
                 li.classList.add('correct');
