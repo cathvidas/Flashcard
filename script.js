@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <p class="quiz-result-percentage" style="color: ${scoreColor}">${percentage}% Correct</p>
                 <div style="display: flex; gap: 1rem; justify-content: center;">
                     <button id="restartQuizBtn" class="btn primary">Restart Quiz</button>
-                    <button id="exitQuizBtn" class="btn secondary">Exit Focus Mode</button>
+                    <button id="exitQuizBtn" class="btn secondary">Exit Quiz</button>
                 </div>
             </div>
         `;
