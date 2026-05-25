@@ -1857,6 +1857,7 @@
   {
     "question_number": 155,
     "question": "Consider an estimation session in which a six-member Agile team (Memb1..... Memb6) uses the planning poker technique to estimate a user story (in story points). The team members will use a set of cards with the following values: 1,2, 3,5, 8,13,21. Below is the outcome of the first round of estimation for this session: \n\nWhich of the following answers BEST describes how the estimation session should proceed? ",
+    "attachment": "no155.png",
     "options": [
       "A. The final estimate of the user story in story points is determined by applying the three-point estimation technique with the following input values most optimistic estimate - 1, most likely estimate - 3, and most pessimistic estimate - 21",
       "B. Further estimation rounds should be performed until all team members will pick the card having the same value: this value will represent the final estimate of the user story in story points.",
@@ -3086,6 +3087,7 @@
   {
     "question_number": 257,
     "question": "For each of the test cases to be executed, the following table specifies the priority order and dependencies on other test cases Which of the following test execution schedules is compatible with the logical dependencies and allows executing the test cases in priority order?",
+    "attachment": "no257.png",
     "options": [
       "A. TC4, TC3, TC2, TC6, TC5. TC1",
       "B. TC4, TC6, TC3, TC2, TC5, TC1",
